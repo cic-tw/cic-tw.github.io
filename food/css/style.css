@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol{
+	margin:0px;
+	padding:0px;}
+ul,ol{
+	list-style:none;}
+a{
+	text-decoration:none;
+	color:#33b9ff;}
+img{
+	border:none;}
+body{
+	background:#000;
+	color:#aeaeae;
+	font-family:微軟正黑體;
+	}
+blockquote{
+	background:url(../images/blockquote01.png) no-repeat left top,
+	url(../images/blockquote02.png) no-repeat right bottom;
+	padding:50px;
+	margin:25px 0px;}
+blockquote ol{
+	list-style:decimal;
+	padding:0 0 0 40px;}
+.index-img img{
+	width:100%;
+		height:auto;
+	max-width:636px;
+	margin:auto;
+	display:block;}
+.inner-img img{
+	margin:auto;
+	display:block;}
+.index-img h1,.inner-img h1{
+	height:1px;
+	line-height:3em;
+	overflow:hidden;}
+.menu{
+	border-top:1px solid #1b1b1b;
+	border-bottom:1px solid #1b1b1b;
+	overflow:hidden;}
+.menu-list{
+	width:458px;
+	margin:auto;}
+.menu-list li{
+	float:left;}
+.menu-list li a{
+	font-weight:bold;
+	display:block;
+	padding:15px 25px;
+	color:#5d5d5d;
+	font-size:22px;}	
+.menu-list li.current a{
+	color:#fff;}
+.main-wrap{
+	font-size:24px;
+	line-height:1.7em;}
+.block-01{
+	padding:70px 20%;
+	background:#1b1b1b;}
+.block-02{
+	padding:70px 20%;
+	background:#313131;}
+.block-01s{
+	padding:45px 0;
+	background:#1b1b1b;}
+.block-02s{
+	padding:45px 0;
+	background:#313131;}
+.f-logo{
+	width:575px;
+	margin:auto;}
+.f-logo img{
+	display:block;}
+.f-logo a{
+	display:block;
+	float:left;
+	margin:0 15px;}
+.video-view{
+	width:800px;
+	margin:auto;}
+.video-view img{
+	width:100%;
+	display:block;
+	}
+.video-view h2{
+	font-size:30px;
+	margin:0 0 12px 0;}
+.video-show{
+	position:relative;
+	/*padding:37% 0 0 0;*/
+	width:960px;
+	height:520px;
+	margin:auto;}
+.video-show iframe{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	}
+.video-txt{
+	padding:35px 15%;}
+.video-txt h2{
+	font-size:36px;
+	color:#fff;}
+.ptxt{
+	color:#fff;
+	font-size:18px;
+	letter-spacing:3px;}
+.qa-block {
+	border-bottom:1px dotted #ccc;
+	padding:0 0 15px 0;
+	margin:0 0 15px 0;}
+.qa-block h3{
+	cursor:pointer;
+	color:#33b9ff;
+	font-size:30px;
+	margin:0 0 15px;}
+.ans-txt p{
+	margin:0 0 1em 0;}
+@media only screen and (max-width: 1240px){
+	.main-wrap br{
+		display:none;}
+		}
+@media only screen and (max-width: 960px){
+	.video-show{
+	padding:55% 0 0 0;
+	height:auto;
+	width:auto;
+	}
+	.video-view{
+		width:90%;}
+	}
+@media only screen and (max-width: 800px){
+	.video-txt{
+		padding:35px 7%;}
+		}
+@media only screen and (max-width: 600px){
+	.f-logo{
+		width:320px;
+	
+	}
+	.f-logo img{
+		width:130px;}
+	}
+@media only screen and (max-width: 460px){
+.menu-list li:first-child{
+	display:none;
+	}
+	.menu-list{
+	width:280px;}
+	.menu-list li a{
+		padding:15px;}
+}
