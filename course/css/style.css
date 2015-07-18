@@ -10,7 +10,7 @@ body{background:#f0e6e6;}
 	padding:55px 0;
 	}
 #top-wrap{
-	height:177px;
+	height:200px;
 	background:url(../images/top.jpg);
 	background-size:cover;
 	text-align:center;
@@ -18,10 +18,13 @@ body{background:#f0e6e6;}
 	color:#fff;}
 h1{
 	font-size:36px;
-	padding:22px 0 0 0;
+	padding:20px 0 0 0;
+	height:95px;
 	text-shadow:2px 2px 0px #000000;}
+#top-wrap p{
+	height:36px;}
 #top-wrap ul{
-	margin:34px 0 0 0;}
+	}
 #top-wrap li{
 	display:inline-block;
 	background:#d4b4b4;
@@ -154,12 +157,14 @@ color:#fff;}}
 		.say-what:after{
 left:50px;}
 h1{
-	font-size:24px;
 	padding:22px 8px 0 8px;
-	height:86px;}
+	}
 h1 br{
 	display:none;}
 	.say-what{
 	padding:10px 25px;
 	border-radius:0px;
 }}
+@media only screen and (max-width: 420px){
+	h1{
+		font-size:28px;}}
