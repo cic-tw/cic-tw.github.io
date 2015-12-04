@@ -26,14 +26,14 @@ a{
 	float: left;
 	height: 1px;
 	overflow: hidden;
-	padding-top: 52%;
+	padding-top: 40%;
 }
 .book-info{
 	width: 50%;
 	float: right;
 	height: 1px;
 	overflow: hidden;
-	padding-top: 52%;
+	padding-top: 40%;
 		background-image: url(../images/book-cover-02.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
