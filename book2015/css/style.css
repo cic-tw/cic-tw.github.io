@@ -51,10 +51,10 @@ a{
 .info-02{
 	left: 10%;
 	bottom: 13%;
-	font-size: 24px;
+	font-size: 18px;
 }
 .info-02 h2{
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
@@ -176,16 +176,7 @@ ul.book-list{
 .book-info{
 	font-size: 20px;
 }
-.info-02{
-	left: 10%;
-	bottom: 13%;
-	font-size: 24px;
-}
-.info-02 h2{
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
+
 .footer{
 	font-size: 16px;
 	height: auto;padding: 10px;
