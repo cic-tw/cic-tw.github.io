@@ -9,7 +9,8 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dt,dl,p,em,strong,address{
 	list-style: none;
 }
 body{
-	font-family: 微軟正黑體,Arial;
+	font-family: "xingothic-tc";
+	font-weight: 200;
 }
 a{
 	color: #8d6142;
@@ -57,6 +58,8 @@ a{
 	font-size: 26px;
 	font-weight: bold;
 	margin-bottom: 10px;
+	font-family: "datm7";
+	font-weight: 700;
 }
 .info-01 .btn{
 		margin-top: 20px;
@@ -113,6 +116,8 @@ a{
 	font-size: 32px;
 	font-weight: bold;
 	color: #9d522a;
+	font-family: "datm7";
+	font-weight: 700;
 }
 .content-02 h2{
 	margin-bottom: 20px;
@@ -122,6 +127,8 @@ a{
 	font-size: 26px;
 	margin-bottom: 20px;
 	font-weight: bold;
+	font-family: "xingothic-tc";
+	font-weight: 400;
 }
 
 .content-txt p,.qa-txt p{
