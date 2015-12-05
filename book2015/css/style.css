@@ -15,7 +15,7 @@ a{
 	color: #8d6142;
 }
 .wrap{
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 }
 .book-cover{
 	width: 50%;
@@ -38,7 +38,7 @@ a{
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
-	font-size: 24px;
+	font-size: 20px;
 	color: #fff;
 }
 .info-01,.info-02{
@@ -51,10 +51,10 @@ a{
 .info-02{
 	left: 10%;
 	bottom: 13%;
-	font-size: 28px;
+	font-size: 24px;
 }
 .info-02 h2{
-	font-size: 36px;
+	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
@@ -91,17 +91,17 @@ a{
 	width: 100%;
 	background: #000;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 10px 0; 
 }
 
 .footer p{
 	display: inline-block;
-	margin: 0 15px;
+	margin: 0 10px;
 }
 
 .content-01,.content-02{
-	font-size: 22px;
+	font-size: 18px;
 	padding: 50px 20%;
 	clear: both;
 }
@@ -192,19 +192,18 @@ ul.book-list{
 	line-height: 1.5em;
 }
 .wrap{
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 }
 .content-01,.content-02{
-	font-size: 20px;
 	padding: 50px 10%;
 }
 
 .content-01 h2,.content-02 h2{
-	font-size: 30px;
+	font-size: 28px;
 }
 
 .content-01 h3{
-	font-size: 24px;
+	font-size: 22px;
 }
 }
 
@@ -284,14 +283,14 @@ p.book-list{
 }
 
 .content-01 h2,.content-02 h2{
-	font-size: 28px;
+	font-size: 24px;
 }
 
 .content-01 h3{
-	font-size: 22px;
+	font-size: 20px;
 }
 .footer{
-	font-size: 15px;
+	font-size: 14px;
 }
 }
 
@@ -310,7 +309,7 @@ p.book-list{
 
 @media (max-width: 580px){
 	.wrap{
-	padding-bottom: 190px;
+	padding-bottom: 100px;
 }
 }
 
@@ -328,19 +327,17 @@ p.book-list{
 .info-02 p{
 	display: none;
 }
-.wrap{
-	padding-bottom: 240px;
-}
+
 .content-01,.content-02{
 	font-size: 14px;
 }
 
 .content-01 h2,.content-02 h2{
-	font-size: 26px;
+	font-size: 21px;
 }
 
 .content-01 h3{
-	font-size: 20px;
+	font-size: 17px;
 }
 .footer{
 	font-size: 12px;
