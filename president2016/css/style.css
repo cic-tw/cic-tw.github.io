@@ -538,7 +538,7 @@ margin-bottom:15px;}
 }
 .single-page-inner h3{
 	font-size:34px;
-	margin:0 0 1% 0;}
+	margin:0;}
 .sinner-info{
 	overflow:hidden;
 	margin:0 0 1% 0;}
@@ -565,7 +565,7 @@ margin-bottom:15px;}
 	margin:0 0 2px 0;}
 .inner-content-txt{
 	color:#737373;
-	padding:1em 0;
+	padding:0 0 1em 0;
 	font-size:21px;
 line-height:1.7em;
 letter-spacing:1px;}
@@ -2119,7 +2119,30 @@ float:left;}
 	}	
 #book-sell a:nth-child(2),#book-sell a:nth-child(3){
 	display:none;}
+.billy-txt{
+	max-width: 960px;
+	margin: auto;
+	background: #ececec;
+	padding: 30px 50px;
+	margin-bottom: 25px;
+}
+.billy-txt h2{
+	text-align: center;
+}
+.billy-txt p{
+	margin-bottom:1em;
+	line-height: 1.5em;
+
+}
+.m-data{
+	font-size: 18px;
+	display: inline;
+	margin-left: 10px;
+}
 @media only screen and (max-width: 1152px){
+		.gp-bar p span{
+		font-size: 13px;
+	}
 	.srblock#search01{
 	background:#e9e0ad url(../images/banners/search-banner-01.jpg) 18% center no-repeat;
 	height:360px;
@@ -2213,8 +2236,12 @@ clear:none;}
 	.attend-graphic p span {
     font-size: 24px;
 }
+
 	}
 @media only screen and (max-width: 960px){
+	.billy-txt{
+font-size: 13px;
+	}
 	#index-banner{
 	height:500px;
 	background:url(../images/banners/index-banner-02.jpg) center top no-repeat;
