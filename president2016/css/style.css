@@ -2139,6 +2139,10 @@ float:left;}
 	display: inline;
 	margin-left: 10px;
 }
+.banner-txt{
+	font-size: 26px;
+	text-align: center;
+}
 @media only screen and (max-width: 1152px){
 		.gp-bar p span{
 		font-size: 13px;
