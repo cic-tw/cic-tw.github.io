@@ -8,7 +8,7 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol{
 	margin: auto;
 }
 .video-frame{
-	padding: 73px 53px 0 53px;
+	padding: 73px 473px 0 53px;
 	position: relative;
 }
 .video-frame h1{
@@ -20,32 +20,31 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol{
 	line-height: 20em;
 }
 .main-video{
-	width: 80%;
+	width: 100%;
 	height: 720px;
 	display: block;
 	box-sizing: border-box;
-	float: left;
 }
 .sec-viedo{
-	width: 20%;
+	width: 420px;
 	height:220px;
 	display: block;
 	box-sizing: border-box;
 	border: 2px solid #fff;
-	float: left;
-
+	position: absolute;
+	right: 53px;
+	top: 93px;
 }
 .chat-block{
-	width: 20%;
+	width: 420px;
 	height:500px;
 	display: block;
 	box-sizing: border-box;
 	border: 2px solid #fff;
-	float: left;
+	right: 53px;
+	bottom: 0px;
 }
-.fb-comments{
-	width: 100%;
-}
+
 .decoration-block div{
 	position: absolute;
 	overflow: hidden;
