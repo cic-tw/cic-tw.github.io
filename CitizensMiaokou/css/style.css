@@ -17,7 +17,7 @@ iframe{
 	margin: auto;
 }
 .video-frame{
-	padding: 73px 473px 0 53px;
+	padding: 73px 30% 0 53px;
 	position: relative;
 }
 .video-frame h1{
@@ -34,12 +34,12 @@ h2{
 	box-sizing: border-box;
 }
 .main-video iframe{
-	height: 620px;
+	height: 480px;
 }
 
 .chat-block{
-	width: 420px;
-	height:620px;
+	width: 30%;
+	height:480px;
 	display: block;
 	box-sizing: border-box;
 	position: absolute;
