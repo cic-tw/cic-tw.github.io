@@ -65,6 +65,7 @@ h2{
 	background: url("../images/top.png") top center no-repeat;
 	left: 0px;
 	top: 0px;
+	z-index: 999;
 }
 .d-left{
 	width: 53px;
