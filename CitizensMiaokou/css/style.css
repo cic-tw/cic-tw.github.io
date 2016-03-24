@@ -90,11 +90,10 @@ h2{
 	.main-video{
 	width: 100%;
 	padding-top: 60%;
-
+	background: #000;
 }
 .s-video{
 	padding: 0 7%;
-	background: #000;
 }
 .s-video iframe{
 	width: 86%;
@@ -103,12 +102,10 @@ h2{
 
 .chat-block{
 	width: 100%;
-	padding-top: 60%;
-	top:0;
+	top: 605%;
 	right: auto;
 	left: 0px;
-	padding: 0 53px;
-}
+	padding: 0 53px;}
 .d-left,.d-right{
 	z-index: 1002;
 }
