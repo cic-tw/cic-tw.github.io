@@ -84,13 +84,22 @@ h2{
 
 @media (max-width: 960px) {
 	.video-frame{
-	padding: 73px 53px 0 53px;
+	padding: 73px 0 0 0;
+	box-sizing: border-box;
 }
 	.main-video{
 	width: 100%;
 	padding-top: 60%;
-	
+
 }
+.s-video{
+	padding: 0 7%;
+	background: #000;
+}
+.s-video iframe{
+	width: 86%;
+}
+
 
 .chat-block{
 	width: 100%;
@@ -98,6 +107,9 @@ h2{
 	right: auto;
 	left: 0px;
 	padding: 0 53px;
+}
+.d-left,.d-right{
+	z-index: 1002;
 }
 }
 
