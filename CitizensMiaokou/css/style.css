@@ -102,10 +102,9 @@ h2{
 
 .chat-block{
 	width: 100%;
-	padding-top: 200%;
 	right: auto;
 	left: 0px;
-	padding: 0 53px;}
+	padding:60% 53px 0 53px;}
 .d-left,.d-right{
 	z-index: 1002;
 }
