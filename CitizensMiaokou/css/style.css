@@ -29,11 +29,11 @@ h2{
 	line-height: 20em;
 }
 .main-video{
-	width: 100%;
-	padding-top: 50%;
+	width: 70%;
+	padding-top: 40%;
 	display: block;
 	box-sizing: border-box;
-	position: relative;
+	position: fixed;
 }
 .main-video iframe{
 	height: 100%;
@@ -84,11 +84,10 @@ h2{
 @media (max-width: 960px) {
 	.video-frame{
 	padding: 73px 53px 0 53px;
-	position: relative;
 }
 	.main-video{
 	width: 100%;
-	padding-top: 70%;
+	padding-top: 60%;
 	
 }
 
