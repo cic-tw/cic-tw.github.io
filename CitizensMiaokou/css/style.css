@@ -52,12 +52,10 @@ h2{
 }
 .fb-comments{
 	height: 100%;
-	position: absolute;
-	top: 0px;
 }
 
 .decoration-block div{
-	position: absolute;
+	position: fixed;
 	overflow: hidden;
 	text-indent: -1000px;
 }
@@ -95,7 +93,7 @@ h2{
 }
 
 .chat-block{
-	width: 110%;
+	width: 100%;
 	top:100%;
 	right: auto;
 	left: 0px;
