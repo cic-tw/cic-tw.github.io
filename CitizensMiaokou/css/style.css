@@ -29,11 +29,12 @@ h2{
 	line-height: 20em;
 }
 .main-video{
-	width: 70%;
+	width: 65%;
 	padding-top: 40%;
 	display: block;
 	box-sizing: border-box;
 	position: fixed;
+	z-index: 988;
 }
 .main-video iframe{
 	height: 100%;
