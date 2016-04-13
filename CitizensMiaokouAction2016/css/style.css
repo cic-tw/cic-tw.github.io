@@ -162,23 +162,33 @@ background-size:auto cover;
 	display: block;
 	margin: 8px auto;
 }
+.btn-gruop{
+	max-width: 370px;
+	margin: auto;
+}
 .history-btn{
 	display: block;
-	width: 230px;
-	height: 69px;
-	margin: 30px auto 0 auto;
+	width: 50%;
+	height: 50px;
 	overflow: hidden;
 	text-indent: -1000px;
 	background-image: url(../images/history-btn.png);
+	background-repeat: no-repeat;
+	background-size: 90% auto;
+	background-position: center;
+	float: left;
 }
 .share-btn{
 	display: block;
-	width: 171px;
-	height: 38px;
-	margin: 15px auto 0 auto;
+	width: 50%;
+	height: 50px;
 	overflow: hidden;
 	text-indent: -1000px;
 	background-image: url(../images/share-btn.png);
+	background-repeat: no-repeat;
+	background-size: 90% auto;
+	background-position: center;
+	float: right;
 }
 .fade-in{
 	animation: fade-in 6s;
