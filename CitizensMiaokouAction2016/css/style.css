@@ -135,7 +135,7 @@ background-size:auto cover;
 	height: 117px;
 	left: 50%;
 	margin-left: -110px;
-	top: 350px;
+	top: 300px;
 	transform:rotate(10deg);
 }
 .legislators-info{
@@ -147,7 +147,8 @@ background-size:auto cover;
 	font-size: 15px;
 }
 .inc-word{
-	height: 110px;
+	font-size: 15px;
+	height: 60px;
 	overflow: hidden;
 }
 .legislators-info h3{
@@ -265,7 +266,7 @@ background-size:auto cover;
 30% {left:100%;top:-100%;width: 60px;height: 117px;transform:rotate(40deg)}
 40% {left:0%;top:100%;width: 60px;height: 117px;transform:rotate(60deg)}
 43%{left:30%;top:0%;width: 464px;height: 900px;transform:rotate(-20deg);}
-55% {left: 50%;top: 350px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
+55% {left: 50%;top: 300px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
 }
 
 @-moz-keyframes fly-in /* Firefox */
@@ -276,7 +277,7 @@ background-size:auto cover;
 30% {left:100%;top:-100%;width: 60px;height: 117px;transform:rotate(40deg)}
 40% {left:0%;top:100%;width: 60px;height: 117px;transform:rotate(60deg)}
 43%{left:30%;top:0%;width: 464px;height: 900px;transform:rotate(-20deg);}
-55% {left: 50%;top: 350px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
+55% {left: 50%;top: 300px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
 }
 
 @-webkit-keyframes fly-in /* Safari 和 Chrome */
@@ -287,7 +288,7 @@ background-size:auto cover;
 30% {left:100%;top:-100%;width: 60px;height: 117px;transform:rotate(40deg)}
 40% {left:0%;top:100%;width: 60px;height: 117px;transform:rotate(60deg)}
 43%{left:30%;top:0%;width: 464px;height: 900px;transform:rotate(-20deg);}
-55% {left: 50%;top: 350px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
+55% {left: 50%;top: 300px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
 }
 
 @-o-keyframes fly-in /* Opera */
@@ -298,14 +299,15 @@ background-size:auto cover;
 30% {left:100%;top:-100%;width: 60px;height: 117px;transform:rotate(40deg)}
 40% {left:0%;top:100%;width: 60px;height: 117px;transform:rotate(60deg)}
 43%{left:30%;top:0%;width: 464px;height: 900px;transform:rotate(-20deg);}
-55% {left: 50%;top: 350px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
+55% {left: 50%;top: 300px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
 }
 
 @media screen and (max-width: 780px){
 	.main{
-	margin: 50px auto 0 auto;
+	margin: 10px auto 0 auto;
 width: auto;}
 .result-main{
+	margin: 10px auto;
 	width: auto;
 }
 	.incantation{
@@ -319,7 +321,7 @@ width: auto;}
 .result-inc{
 	position: absolute;
 	margin-left: -110px;
-	top: 350px;	
+	top: 300px;
 }
 
 .stitle,.ftitle{
@@ -370,7 +372,5 @@ width: auto;}
 	height: 1px;
 	padding-top: 12%;
 }
-.inc-word{
-	font-size: 16px;
-}
+
 }
