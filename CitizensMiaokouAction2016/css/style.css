@@ -154,6 +154,8 @@ background-size:auto cover;
 }
 .legislators-info h3{
 	font-size: 35px;
+	height: 47px;
+	overflow: hidden;
 	
 }
 .legislators-photo{
