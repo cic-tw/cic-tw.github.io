@@ -127,7 +127,7 @@ background-size:auto cover;
 	width: 370px;
 }
 .result-inc-title{
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 .result-inc{
 	position: absolute;
@@ -147,7 +147,7 @@ background-size:auto cover;
 	font-size: 15px;
 }
 .inc-word{
-	font-size: 15px;
+	font-size: 13px;
 	height: 60px;
 	overflow: hidden;
 }
@@ -304,10 +304,10 @@ background-size:auto cover;
 
 @media screen and (max-width: 780px){
 	.main{
-	margin: 10px auto 0 auto;
+	margin: 5px auto 0 auto;
 width: auto;}
 .result-main{
-	margin: 10px auto;
+	margin: 5px auto;
 	width: auto;
 }
 	.incantation{
@@ -349,6 +349,9 @@ width: auto;}
 	width: 80%;
 	max-width: 400px;
 	margin: auto;
+}
+.result-inc-title{
+	margin-bottom: 5px;
 }
 }
 
