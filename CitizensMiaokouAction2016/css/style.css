@@ -4,12 +4,74 @@ body,p,h1,h2,h3,h4,h5,h6,ul,ol{
 	margin: 0px;
 	font-weight: normal;
 }
+html{
+	height: 100%;
+}
 body{
 	background: #000;
 	color: #fff;
 	font-family: Arial,"Microsoft JhengHei","Apple LiGothic Medium","LiHei Pro Medium";
+	height: 100%;
 
 }
+.bg-wrap{
+	overflow: hidden;
+	height: 100%;
+}
+.bg-wrap-s01{
+	background-image: url(../images/bg-fire-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;	
+	height: 100%;
+	animation: fireA 4s;
+-moz-animation: fireA 4s;	/* Firefox */
+-webkit-animation: fireA 4s;	/* Safari 和 Chrome */
+-o-animation: fireA 4s;
+}
+.bg-wrap-s02{
+	background-image: url(../images/bg-fire-02.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;	
+	height: 100%;
+	animation: fireA 4s;
+-moz-animation: fireA 4s;	/* Firefox */
+-webkit-animation: fireA 4s;	/* Safari 和 Chrome */
+-o-animation: fireA 4s;
+}
+
+@keyframes fireA
+{
+0%   {background-position: center -300px;}
+50%   {background-position: center -300px;}
+100%   {background-position: center 00px;}
+}
+
+@-moz-keyframes fireA
+{
+0%   {background-position: center -300px;}
+50%   {background-position: center -300px;}
+100%   {background-position: center 00px;}
+}
+
+
+@-webkit-keyframes fireA
+{
+0%   {background-position: center -300px;}
+50%   {background-position: center -300px;}
+100%   {background-position: center 00px;}
+}
+
+
+@-o-keyframes fireA
+{
+0%   {background-position: center -300px;}
+50%   {background-position: center -300px;}
+100%   {background-position: center 00px;}
+}
+
+
 .main{
 	max-width: 370px;
 	margin: 30px auto 0 51%;
@@ -194,10 +256,10 @@ background-size:auto cover;
 	float: right;
 }
 .fade-in{
-	animation: fade-in 6s;
--moz-animation: fade-in 6s;	/* Firefox */
--webkit-animation: fade-in 6s;	/* Safari 和 Chrome */
--o-animation: fade-in 6s;
+	animation: fade-in 3s;
+-moz-animation: fade-in 3s;	/* Firefox */
+-webkit-animation: fade-in 3s;	/* Safari 和 Chrome */
+-o-animation: fade-in 3s;
 }
 
 @keyframes fade-in
@@ -212,7 +274,7 @@ background-size:auto cover;
 30%  {background: black;}
 35%  {background: yellow;}
 40% {background: black;}
-60%  {background: white;}
+70%  {background: white;}
 100% {background: black;}
 }
 
@@ -228,7 +290,7 @@ background-size:auto cover;
 30%  {background: black;}
 35%  {background: yellow;}
 40% {background: black;}
-60%  {background: white;}
+70%  {background: white;}
 100% {background: black;}
 }
 
@@ -244,7 +306,7 @@ background-size:auto cover;
 30%  {background: black;}
 35%  {background: yellow;}
 40% {background: black;}
-60%  {background: white;}
+70%  {background: white;}
 100% {background: black;}
 }
 
@@ -260,15 +322,15 @@ background-size:auto cover;
 30%  {background: black;}
 35%  {background: yellow;}
 40% {background: black;}
-60%  {background: white;}
+70%  {background: white;}
 100% {background: black;}
 }
 
 .fly-in{
-	animation: fly-in 6s;
--moz-animation: fly-in 6s;	/* Firefox */
--webkit-animation: fly-in 6s;	/* Safari 和 Chrome */
--o-animation: fly-in 6s;
+	animation: fly-in 5.5s;
+-moz-animation: fly-in 5.5s;	/* Firefox */
+-webkit-animation: fly-in 5.5s;	/* Safari 和 Chrome */
+-o-animation: fly-in 5.5s;
 }
 
 @keyframes fly-in
@@ -313,6 +375,43 @@ background-size:auto cover;
 40% {left:0%;top:100%;width: 60px;height: 117px;transform:rotate(60deg)}
 43%{left:30%;top:0%;width: 464px;height: 900px;transform:rotate(-20deg);}
 55% {left: 50%;top: 300px;width: 60px;height: 117px;margin-left: -110px;transform:rotate(10deg);}
+}
+
+#opps-bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0%,0%,0%,0.8);
+}
+
+#opps-box{
+	width: 300px;
+	min-height: 80px;
+	position: fixed;
+	left: 50%;
+	top: 15%;
+	margin-left: -150px;
+	background: #fff;
+	border-radius: 5px;
+	color: #000;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px 0;
+}
+#opps-box p{
+	margin-bottom: 10px;
+}
+.sbtn{
+	display: block;
+	width: 80px;
+	margin: auto;
+	background: #999;
+	padding: 7px 12px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
 }
 
 @media screen and (max-width: 780px){
