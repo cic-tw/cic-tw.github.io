@@ -27,32 +27,32 @@ body{
 }
 
 .incantation.inc-01{
-	background-image: url(../images/inc-01.jpg);
+	background-image: url(../images/inc-01.gif);
 }
 
 .incantation.inc-02{
-	background-image: url(../images/inc-02.jpg);
+	background-image: url(../images/inc-02.gif);
 }
 .incantation.inc-03{
-	background-image: url(../images/inc-03.jpg);
+	background-image: url(../images/inc-03.gif);
 }
 .incantation.inc-04{
-	background-image: url(../images/inc-04.jpg);
+	background-image: url(../images/inc-04.gif);
 }
 .incantation.inc-05{
-	background-image: url(../images/inc-05.jpg);
+	background-image: url(../images/inc-05.gif);
 }
 .incantation.inc-06{
-	background-image: url(../images/inc-06.jpg);
+	background-image: url(../images/inc-06.gif);
 }
 .incantation.inc-07{
-	background-image: url(../images/inc-07.jpg);
+	background-image: url(../images/inc-07.gif);
 }
 .incantation.inc-08{
-	background-image: url(../images/inc-08.jpg);
+	background-image: url(../images/inc-08.gif);
 }
 .incantation.inc-09{
-	background-image: url(../images/inc-09.jpg);
+	background-image: url(../images/inc-09.gif);
 }
 .stitle,.inctitle,.incantation,.ftitle,.btn{
 	overflow: hidden;
