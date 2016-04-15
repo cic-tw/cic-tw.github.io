@@ -14,6 +14,14 @@ body{
 	height: 100%;
 
 }
+.music{
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	top: 0;	
+	overflow: hidden;
+}
 .bg-wrap{
 	overflow: hidden;
 	height: 100%;
@@ -327,10 +335,10 @@ background-size:auto cover;
 }
 
 .fly-in{
-	animation: fly-in 5.5s;
--moz-animation: fly-in 5.5s;	/* Firefox */
--webkit-animation: fly-in 5.5s;	/* Safari 和 Chrome */
--o-animation: fly-in 5.5s;
+	animation: fly-in 4.5s;
+-moz-animation: fly-in 4.5s;	/* Firefox */
+-webkit-animation: fly-in 4.5s;	/* Safari 和 Chrome */
+-o-animation: fly-in 4.5s;
 }
 
 @keyframes fly-in
