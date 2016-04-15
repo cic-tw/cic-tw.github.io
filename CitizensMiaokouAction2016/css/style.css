@@ -250,6 +250,7 @@ background-size:auto cover;
 	background-size: 90% auto;
 	background-position: center;
 	float: left;
+	margin-bottom: 12px;
 }
 .share-btn{
 	display: block;
@@ -262,6 +263,19 @@ background-size:auto cover;
 	background-size: 90% auto;
 	background-position: center;
 	float: right;
+	margin-bottom: 12px;	
+}
+.buy-btn{
+	display: block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	clear: both;
+	width: 95%;
+	margin:auto;	
 }
 .fade-in{
 	animation: fade-in 3s;
