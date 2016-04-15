@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol{
+	font-size: 1em;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+.form-wrap{
+	padding:30px 5%;}
+
+.title{
+	font-size: 28px;
+	font-weight: bold;
+	text-align:center;
+	margin-bottom: 10px;}
+.ts-info{
+	font-size: 13px;
+	text-align:center;
+	margin-bottom: 20px;}
+.spt{
+	color:#770001;
+	font-size: 13px;}
+.form-table{
+	max-width:640px;
+	margin:auto;
+	border-radius:5px;
+	box-sizing:border-box;
+	padding:15px;
+	background-color:#f3f3f3;}
+.form-table table{
+	width: 100%;
+	border-collapse:collapse;
+	font-size: 18px;}
+.form-table table input{
+	width: 80%;
+	font-size: 18px;
+	padding:7px;
+	border-radius:5px;
+	border:1px solid #ccc;}
+.form-table table .short-input{
+	width:120px;}
+.form-table td,.form-table th{
+	padding:7px 5px;}
+.form-table th{
+	text-align:right;}
+.btn-bar{
+	text-align:center;
+	padding:10px 0 0 0;}
+.btn-bar input{
+	margin:5px;
+	cursor:pointer;
+	border-radius:5px;
+	border:none;
+	font-size: 18px;
+	padding:9px 18px;}
