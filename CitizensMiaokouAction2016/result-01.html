@@ -17,12 +17,12 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type="text/javascript">
             $(document).ready(function() {
-                $("#music")[0].load();
-                 $("#music")[0].play();
+                 $('#play').trigger('click');
             });
- 
+ 			
             function playsound()
             {
+            	$("#music").load();
                 $("#music")[0].play();
                 $("#music")[0].pause();
  
@@ -71,7 +71,8 @@ function playPause() {
 				<a href="#" class="history-btn">歷史表現</a>
 				<a href="#" class="share-btn">分享此頁</a>
 				<a href="#" class="buy-btn">贊助國會調查兵團</a>
-				<a href="javascript:playPause();" id="play">有自動播放音樂嗎？</a>
+				<a href="javascript:playPause();">有自動播放音樂嗎？</a>
+				<input id="play" type="button" value="播放吧～" style="width:200px;height:100px;font-size:16pt;" onclick="javascript:playsound();" />
 				<input type="button" value="播放吧～" style="width:200px;height:100px;font-size:16pt;" onclick="javascript:playsound();" />
 			</div>
 		</section>
