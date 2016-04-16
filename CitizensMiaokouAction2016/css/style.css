@@ -13,7 +13,6 @@ body{
 	color: #fff;
 	font-family: Arial,"Microsoft JhengHei","Apple LiGothic Medium","LiHei Pro Medium";
 	height: 100%;
-
 }
 .music{
 	width: 1px;
@@ -33,10 +32,10 @@ body{
 	background-position: center top;
 	overflow: hidden;	
 	height: 100%;
-	animation: fireA 4s;
--moz-animation: fireA 4s;	/* Firefox */
--webkit-animation: fireA 4s;	/* Safari 和 Chrome */
--o-animation: fireA 4s;
+	animation: fireA 13s;
+-moz-animation: fireA 13s;	/* Firefox */
+-webkit-animation: fireA 13s;	/* Safari 和 Chrome */
+-o-animation: fireA 13s;
 }
 .bg-wrap-s02{
 	background-image: url(../images/bg-fire-02.jpg);
@@ -44,10 +43,10 @@ body{
 	background-position: center top;
 	overflow: hidden;	
 	height: 100%;
-	animation: fireA 4s;
--moz-animation: fireA 4s;	/* Firefox */
--webkit-animation: fireA 4s;	/* Safari 和 Chrome */
--o-animation: fireA 4s;
+	animation: fireA 13s;
+-moz-animation: fireA 13s;	/* Firefox */
+-webkit-animation: fireA 13s;	/* Safari 和 Chrome */
+-o-animation: fireA 13s;
 }
 
 @keyframes fireA
@@ -279,10 +278,10 @@ background-size:auto cover;
 	margin:auto;	
 }
 .fade-in{
-	animation: fade-in 3s;
--moz-animation: fade-in 3s;	/* Firefox */
--webkit-animation: fade-in 3s;	/* Safari 和 Chrome */
--o-animation: fade-in 3s;
+	animation: fade-in 9s;
+-moz-animation: fade-in 9s;	/* Firefox */
+-webkit-animation: fade-in 9s;	/* Safari 和 Chrome */
+-o-animation: fade-in 9s;
 }
 
 @keyframes fade-in
@@ -350,10 +349,10 @@ background-size:auto cover;
 }
 
 .fly-in{
-	animation: fly-in 4.5s;
--moz-animation: fly-in 4.5s;	/* Firefox */
--webkit-animation: fly-in 4.5s;	/* Safari 和 Chrome */
--o-animation: fly-in 4.5s;
+	animation: fly-in 13s;
+-moz-animation: fly-in 13s;	/* Firefox */
+-webkit-animation: fly-in 13s;	/* Safari 和 Chrome */
+-o-animation: fly-in 13s;
 }
 
 @keyframes fly-in

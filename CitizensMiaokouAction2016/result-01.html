@@ -14,10 +14,23 @@
 		<meta property="og:site_name" content="國會調查兵團" />
 		<meta property="article:author" content="https://www.facebook.com/cictw/" />
 		<meta property="article:publisher" content="https://www.facebook.com/cictw/" />
+		<script> 
+		window.onload=playPause;
+function playPause() { 
+    var music = document.getElementById('music');  
+    if (music.paused){ 
+        music.play(); 
+    } 
+    else{ 
+        music.pause();  
+    } 
+} 
+
+</script> 
 	</head>
 	<body>
 		<div class="music">
-			<audio controls preload="auto" autoplay>
+			<audio controls preload="auto" id="music">
 				<source src="music/01.mp3" type="audio/mpeg">
 				<source src="music/01.ogg" type="audio/mpeg">
 			</audio>
@@ -40,6 +53,7 @@
 				<a href="#" class="history-btn">歷史表現</a>
 				<a href="#" class="share-btn">分享此頁</a>
 				<a href="#" class="buy-btn">贊助國會調查兵團</a>
+				<a href="javascript:playPause();">撥放音樂</a>
 			</div>
 		</section>
 		<div class="incantation inc-01 result-inc fly-in">用功認真閃光咒</div>
