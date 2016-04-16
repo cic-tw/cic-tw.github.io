@@ -14,27 +14,11 @@
 		<meta property="og:site_name" content="國會調查兵團" />
 		<meta property="article:author" content="https://www.facebook.com/cictw/" />
 		<meta property="article:publisher" content="https://www.facebook.com/cictw/" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $("#music")[0].play();
-            });
- 
-            function playsound()
-            {
-                $("#music")[0].play();
-                $("#music")[0].pause();
- 
-                setTimeout(function(){
-                    $("#music")[0].currentTime = 0;
-                    $("#music")[0].play();
-                }, 2000);
-            }
-        </script>
 		<script> 
 		
 function playPause() { 
-    var music = document.getElementById('music');  
+    var music = document.getElementById('music');
+      music.load(); 
     if (music.paused){ 
         music.play(); 
     } 
@@ -76,5 +60,8 @@ function playPause() {
 	</div>
 </div>
 </body>
+<script type="text/javascript"> 
+ playPause(); 
+</script> 
 </html>
 
