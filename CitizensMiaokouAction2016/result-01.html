@@ -15,7 +15,7 @@
 		<meta property="article:author" content="https://www.facebook.com/cictw/" />
 		<meta property="article:publisher" content="https://www.facebook.com/cictw/" />
 		<script> 
-		window.onload=playPause;
+		
 function playPause() { 
     var music = document.getElementById('music');  
     if (music.paused){ 
@@ -53,7 +53,7 @@ function playPause() {
 				<a href="#" class="history-btn">歷史表現</a>
 				<a href="#" class="share-btn">分享此頁</a>
 				<a href="#" class="buy-btn">贊助國會調查兵團</a>
-				<a href="javascript:playPause();">撥放音樂</a>
+				<a href="javascript:playPause();">有自動播放音樂嗎？</a>
 			</div>
 		</section>
 		<div class="incantation inc-01 result-inc fly-in">用功認真閃光咒</div>
@@ -61,3 +61,7 @@ function playPause() {
 </div>
 </body>
 </html>
+
+<script type="text/javascript"> 
+ playPause(); 
+</script> 
