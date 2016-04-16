@@ -13,44 +13,13 @@
 		<meta property="og:image" content="images/inc-01-fb.gif" />
 		<meta property="og:site_name" content="國會調查兵團" />
 		<meta property="article:author" content="https://www.facebook.com/cictw/" />
-		<meta property="article:publisher" content="https://www.facebook.com/cictw/" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script type="text/javascript">
-            $(document).ready(function() {
-                 $('#play').trigger('click');
-            });
- 			
-            function playsound()
-            {
-            	$("#music")[0].load();
-                $("#music")[0].play();
-                $("#music")[0].pause();
- 
-                setTimeout(function(){
-                    $("#music")[0].currentTime = 0;
-                    $("#music")[0].play();
-                }, 2000);
-            }
-        </script>
-		<script> 
-		
-function playPause() { 
-    var music = document.getElementById('music');
-      music.load(); 
-    if (music.paused){ 
-        music.play(); 
-    } 
-    else{ 
-        music.pause();  
-    } 
-} 
-
-</script> 
+		<meta property="article:publisher" content="https://www.facebook.com/cictw/" />		 
 	</head>
 	<body>
 		<div class="music">
-			<audio controls preload="auto" id="music">
+			<audio controls preload="auto" autoplay>
 				<source src="music/01.mp3" type="audio/mpeg">
+				<source src="music/01.ogg" type="audio/mpeg">
 			</audio>
 		</div>
 		<div class="bg-wrap-s01">
@@ -71,9 +40,6 @@ function playPause() {
 				<a href="#" class="history-btn">歷史表現</a>
 				<a href="#" class="share-btn">分享此頁</a>
 				<a href="#" class="buy-btn">贊助國會調查兵團</a>
-				<a href="javascript:playPause();">有自動播放音樂嗎？</a>
-				<input id="play" type="button" value="播放吧～" style="width:200px;height:100px;font-size:16pt;" onclick="javascript:playsound();" />
-				<input type="button" value="播放吧～" style="width:200px;height:100px;font-size:16pt;" onclick="javascript:playsound();" />
 			</div>
 		</section>
 		<div class="incantation inc-01 result-inc fly-in">用功認真閃光咒</div>
