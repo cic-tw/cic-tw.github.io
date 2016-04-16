@@ -6,6 +6,7 @@ body,p,h1,h2,h3,h4,h5,h6,ul,ol{
 }
 html{
 	height: 100%;
+	min-height: 660px;
 }
 body{
 	background: #000;
@@ -250,7 +251,7 @@ background-size:auto cover;
 	background-size: 90% auto;
 	background-position: center;
 	float: left;
-	margin-bottom: 12px;
+	margin-bottom: 30px;
 }
 .share-btn{
 	display: block;
@@ -263,7 +264,7 @@ background-size:auto cover;
 	background-size: 90% auto;
 	background-position: center;
 	float: right;
-	margin-bottom: 12px;	
+	margin-bottom: 30px;	
 }
 .buy-btn{
 	display: block;
