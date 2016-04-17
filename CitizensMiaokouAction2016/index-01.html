@@ -14,6 +14,20 @@
 		<meta property="og:site_name" content="國會調查兵團" />
 		<meta property="article:author" content="https://www.facebook.com/cictw/" />
 		<meta property="article:publisher" content="https://www.facebook.com/cictw/" />
+		<script>
+/**
+* 追蹤 Analytics (分析) 中出站連結點擊的函式。
+* 此函式需要有效的網址字串做為引數，並使用該網址字串
+* 做為事件標籤。將傳輸方式設為「beacon」(信標)，即可
+* 在支援「navigator.sendBeacon」的瀏覽器中透過該功能傳送匹配。
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
 	</head>
 	<body>
 		<section class="main">
@@ -25,7 +39,7 @@
 				<option value="">A</option>
 				<option value="">B</option>
 			</select>
-			<a href="result-01.html" class="btn">立刻貼咒</a>
+			<a href="result-01.html" onclick="trackOutboundLink('http://www.example.com'); return false;" class="btn">立刻貼咒</a>
 		</section>
 		<div class="incantation inc-01">用功認真閃光咒</div>
 	</body>
