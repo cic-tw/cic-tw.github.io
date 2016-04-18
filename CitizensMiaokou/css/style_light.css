@@ -159,6 +159,7 @@ position: relative;}
 }
 .light p{
 	font-size: 13px;
+	height: 2em;
 }
 }
 
@@ -166,7 +167,5 @@ position: relative;}
 	.light{
 	width: 50%;
 }
-.light p{
-	height: 2em;
-}
+
 }
