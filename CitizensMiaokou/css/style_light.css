@@ -1,0 +1,172 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+}
+body{
+	background-image: url("../images/bg.png"), url("../images/bg.png");
+	background-repeat :repeat-y,repeat-y;
+	background-position:left top,right top;
+	
+}
+iframe{
+	width: 100%;
+}
+.all-wrap{
+	position: relative;
+	margin: auto;
+}
+.video-frame{
+	margin: 73px 53px 0 53px;
+	position: relative;
+}
+.schema-block{
+	height: 20px;
+}
+h2{
+	height: 20px;
+	overflow: hidden;
+	line-height: 20em;
+}
+.main-content{
+	width: 70%;
+}
+.main-video{
+	width: 100%;
+	padding-top: 60%;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 988;
+}
+.main-video iframe{
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+.light-group{
+	width: 100%;
+	top: 0;
+	position: relative;
+	left:0;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #fff;
+}
+.light{
+	width: 16.66%;
+	float: left;
+	margin-bottom: 8px;
+	color: #E60012;
+}
+.light img{
+	display: block;
+	width: 96%;
+	margin: auto;
+}
+.light p{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 3px;
+}
+.light a{
+	text-decoration: none;
+	color: #999;
+}
+
+.chat-block{
+	width: 30%;
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;
+	top:0;
+	min-height: 500px;
+}
+.fb-comments{
+	height: 100%;
+}
+
+.decoration-block div{
+	position: fixed;
+	overflow: hidden;
+	text-indent: -1000px;
+}
+.d-top{
+	height: 93px;
+	width: 100%;
+	background: url("../images/top.png") top center no-repeat;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+}
+.d-left{
+	width: 53px;
+	background: url("../images/left.png") top no-repeat;
+	left: 0;
+	top: 93px;
+	height: 720px;
+}
+.d-right{
+	width: 53px;
+	background: url("../images/right.png") top no-repeat;
+	right: 0;
+	top: 93px;
+	height: 720px;
+}
+
+@media (max-width: 1200px){
+	.light{
+	width: 25%;
+}
+}
+@media (max-width: 960px) {
+	.main-content{
+		width: 100%;
+	}
+	.video-frame{
+	padding: 0;
+	box-sizing: border-box;
+}
+	.main-video{
+	width: 100%;
+	padding-top: 60%;
+	background: #000;
+}
+.s-video{
+	padding: 0 7%;
+}
+.s-video iframe{
+	width: 86%;
+}
+
+
+.chat-block{
+	width: 100%;
+	right: auto;
+	left: auto;
+	top: auto;
+position: relative;}
+.d-left,.d-right{
+	z-index: 1002;
+}
+
+}
+
+@media (max-width: 720px) {
+	.light{
+	width: 33.33%;
+}
+.light p{
+	font-size: 13px;
+}
+}
+
+@media (max-width: 320px) {
+	.light{
+	width: 50%;
+}
+.light p{
+	height: 2em;
+}
+}
