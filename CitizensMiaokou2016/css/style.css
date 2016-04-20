@@ -33,7 +33,7 @@ a{
 	color: #fff;
 	font-size: 22px;
 	position: relative;
-	width: 1000px;
+	max-width: 1000px;
 	margin: auto;
 	box-sizing: border-box;
 	padding-left: 495px;
@@ -49,7 +49,7 @@ a{
 	padding-left: 173px;
 }
 
-.info-01 .btn{
+.book-info .btn{
 	width: 86px;
 	height: 79px;
 	background-image: url(../images/buy.png);
@@ -185,13 +185,28 @@ ul.book-list{
 }
 
 @media (max-width: 960px){
-	
-
-ul.book-list{
-	display: block;
+	.edm-block{
+		background-image: url(../images/cover-02.jpg);
+		background-position: right top;
 }
-p.book-list{
-	display: none;
+	.book-info{
+		padding-left: 0;
+		width: auto;
+		margin-right: 5%;
+		overflow: hidden;
+	}
+	.book-info h2{
+		text-align: right;
+	}
+	.book-info p{
+		width: 270px;
+		margin: 0 0 0 50%;
+		padding: 0;
+		float: right;
+}
+.book-info .btn{
+	left: auto;
+	right: 185px;
 }
 .content-01,.content-02{
 	font-size: 16px;
@@ -211,14 +226,40 @@ p.book-list{
 }
 
 @media (max-width: 640px){
-	.book-info{
-	font-size: 16px;
+	.edm-block{
+		background-image: url(../images/cover-03.jpg);
+		background-position: center top;
+		background-repeat: no-repeat;
+		height: 1px;
+		padding-top: 118%;
+		-webkit-background-size: 100% auto;
+		background-size: 100% auto;
+		position: relative;
 }
-.info-02{
-	font-size: 16px;
+.book-info {
+	position: absolute;
+	left: 0;
+	top: 0;	
+	padding-top: 37%;
 }
-.info-02 h2{
-	font-size: 20px;
+.book-info h2{
+	font-size: 24px;
+	text-align: left;
+	padding-left: 5%;
+}
+	.book-info p{
+		width: 200px;
+	font-size: 16px;
+	float: left;
+	margin-left: 5%;
+	margin-right: 50%;
+}
+.book-info .btn{
+	right: auto;
+	left: 5%;
+	width: 50px;
+	height: 46px;
+	background-size: cover;
 }
 }
 
@@ -226,7 +267,14 @@ p.book-list{
 
 
 @media (max-width: 480px){
-
+.book-info h2{
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.book-info p{
+	font-size: 14px;
+	line-height: 1.7em;
+}
 .content-01,.content-02{
 	font-size: 14px;
 }
@@ -238,7 +286,10 @@ p.book-list{
 .content-01 h3{
 	font-size: 17px;
 }
+
 .footer{
 	font-size: 12px;
 }
+
+
 }
