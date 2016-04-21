@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>公民廟口點亮公民燈，群眾募資贊助國會調查兵團</title>
+    <link href="css/form-style.css" rel="stylesheet" type="text/css">
+    <script language="javascript">
+    function wordlength(){
+    var str=document.getElementById("nickname").value;
+    var x=str.length;
+    if(x>5){
+    alert("暱稱最多輸入5個字，請重新輸入");
+    document.getElementById("nickname").value="";
+    }
+    }
+    function calculate(){
+    var x=document.getElementById("money").value;
+    document.getElementById("money").value=Math.round(x);
+    x=Math.round(x);
+    var y=50;
+    var total=document.getElementById("count-total").value;
+    total=Math.round(total);
+    if(x<0){
+    alert("數值不可小於0");
+    x="";
+    document.getElementById("money").value=x;
+    }
+    if(x<500){
+    total = x+y;
+    } else {
+    total=x;
+    }
+    document.getElementById("count-total-show").innerHTML =total;
+    }
+    </script>
+  </head>
+  <body onLoad="calculate()">
+    <div class="all-wrap">
+      <div class="word-wrap">
+        <div class="form-wrap">
+          <h1 class="title"> 公民廟口點亮公民燈，群眾募資贊助國會調查兵團</h1>
+          <p class="ts-info">本群眾募資贊助活動由啟動因子工作室處理相關事宜。發票將會與贊助贈品一起寄出。</p>
+          <div class="form-table">
+            <table border="0">
+              <tbody>
+                <tr>
+                  <th width="26%"><label for="buyer-name">姓名</label>
+                </th>
+                <td width="74%">
+                  <input type="text" name="buyer-name" id="buyer-name" class="short-input">
+                  <br><span class="spt">(贈品寄送收件者)</span></td>
+                </tr>
+                <tr>
+                  <th width="26%"><label for="nickname">暱稱</label></th>
+                  <td width="74%">
+                    <input type="text" name="nickname" id="nickname" class="short-input" onChange="wordlength()">
+                    <br>
+                    <span class="spt">(本暱稱會顯示在公民燈點燈頁面，最多5個字。若暱稱內容含對他人姓名毀謗之文字，點燈頁部分文字將以*字號顯示。)</span></td>
+                  </tr>
+                  <tr>
+                    <th><label for="tel">聯絡電話</label></th>
+                    <td><input type="text" name="tel" id="tel"  class="short-input"></td>
+                  </tr>
+                  <tr>
+                    <th><label for="adress">聯絡地址</label></th>
+                    <td><input type="text" name="adress" id="adress">
+                    <br>
+                    <span class="spt">(贊助贈品將寄到此地址)</span></td>
+                  </tr>
+                  <tr>
+                    <th><label for="email">email</label></th>
+                    <td><input type="text" name="email" id="email"></td>
+                  </tr>
+                  <tr>
+                    <th><label for="money">贊助金額</label></th>
+                    <td><input name="money" type="number" class="short-input" id="money" onChange="calculate()" value="0">
+                    元 <br><span class="spt">(輸入完畢請於輸入欄外畫面任意處點擊後，總計將會重新計算)</span></td>
+                  </tr>
+                  <tr>
+                    <th>贈品運費</th>
+                    <td>50元
+                      <br><span class="spt">(每次贊助將提供1份贊助贈品，贊助金額達500元以上免運費)</span></td>
+                    </tr>
+                    <tr>
+                      <th><label for="count">總計</label></th>
+                      <td><input name="c" type="hidden" id="count-total" disabled> <span id="count-total-show"></span>元</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" align="center"><span class="spt">公民燈將依照贊助順序排序 &gt;&gt; <a href="#">去哪看公民燈？</a></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="btn-bar"><input type="button" value="確認送出"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>

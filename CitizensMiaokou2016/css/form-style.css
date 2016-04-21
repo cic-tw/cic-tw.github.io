@@ -7,6 +7,24 @@ body,p,h1,h2,h3,h4,h5,h6,ul,ol{
 	margin: 0px;
 	font-weight: normal;
 }
+body{
+	min-height: 100vh;
+	background-image: url(../images/bgg3.jpg);
+}
+.all-wrap{
+	background-image: url(../images/bgg2.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	height: 100%;
+	min-height: 100vh;
+}
+.word-wrap{
+	background-image: url(../images/bgg4.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 100%;
+	min-height: 100vh;
+}
 .form-wrap{
 	padding:30px 5%;}
 
@@ -14,11 +32,13 @@ body,p,h1,h2,h3,h4,h5,h6,ul,ol{
 	font-size: 28px;
 	font-weight: bold;
 	text-align:center;
-	margin-bottom: 10px;}
+	margin-bottom: 10px;
+color: #fff;}
 .ts-info{
 	font-size: 13px;
 	text-align:center;
-	margin-bottom: 20px;}
+	margin-bottom: 20px;
+color: #ccc;}
 .spt{
 	color:#770001;
 	font-size: 13px;}
@@ -57,4 +77,15 @@ body,p,h1,h2,h3,h4,h5,h6,ul,ol{
 	border-radius:5px;
 	border:none;
 	font-size: 18px;
-	padding:9px 18px;}
+	padding:9px 18px;
+background: #a60c00;
+color: #fff;}
+
+@media screen and (max-width:960px) {
+	.all-wrap{
+	background-image:none;
+}
+.word-wrap{
+	background-image:none;
+}
+}
