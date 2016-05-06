@@ -71,7 +71,7 @@ color: #ccc;}
 .btn-bar{
 	text-align:center;
 	padding:10px 0 0 0;}
-.btn-bar input{
+.btn-bar button{
 	margin:5px;
 	cursor:pointer;
 	border-radius:5px;
