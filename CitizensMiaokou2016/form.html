@@ -24,6 +24,12 @@
     var y=50;
     var total=document.getElementById("count-total").value;
     total=Math.round(total);
+
+    if(isNaN(x)){
+     alert("贊助金額請輸入數字");
+      x=0;
+      document.getElementById("money").value=x;
+    }
     if(x<0){
     alert("數值不可小於0");
     x=0;
@@ -52,33 +58,12 @@
               <table border="0">
                 <tbody>
                   <tr>
-                    <th width="26%"><label for='custom_field[1507]'>姓名</label>
-                  </th>
-                  <td width="74%">
-                    <input name='custom_field[1507]' required='required' type='text' class="short-input" value=''>
-                    <br><span class="spt">(贈品寄送收件者)</span></td>
-                  </tr>
-                  <tr>
                     <th width="26%"><label for='custom_field[1508]'>暱稱</label></th>
                     <td width="74%">
                       <input name='custom_field[1508]' required='required' type='text' class="short-input" value=''>
                       <br>
                       <span class="spt">(本暱稱會顯示在公民燈點燈頁面，最多5個字。若暱稱內容含對他人姓名毀謗之文字，點燈頁部分文字將以*字號顯示。)</span></td>
                     </tr>
-                    <tr>
-                      <th><label for='custom_field[1509]'>連絡電話</label></th>
-                      <td><input name='custom_field[1509]' required='required' type='text' value=''></td>
-                    </tr>
-                    <tr>
-                      <th><label for='custom_field[1510]'>聯絡地址</label></th>
-                      <td><input name='custom_field[1510]' required='required' type='text' value=''>
-                        <br>
-                        <span class="spt">(贊助贈品將寄到此地址)</span></td>
-                      </tr>
-                      <tr>
-                        <th><label for='custom_field[1511]'>email</label></th>
-                        <td><input name='custom_field[1511]' required='required' type='email' value=''></td>
-                      </tr>
                       <tr>
                         <th><label for='custom_field[1512]'>個人專長</label></th>
                         <td><input name='custom_field[1512]' required='required' type='text' value=''></td>
@@ -88,8 +73,8 @@
                         <td><input name='custom_field[1513]' required='required' type='text' value=''></td>
                       </tr>
                       <tr>
-                        <th><label for="money">贊助金額</label></th>
-                        <td><input name="additional_support" type="number" class="short-input" onChange="calculate()" value="0" id="money">
+                        <th><label for="additional_support">贊助金額</label></th>
+                        <td><input name="additional_support" type="text" class="short-input" onChange="calculate()" value="0" id="money">
                         元 <br><span class="spt">(輸入完畢請於輸入欄外畫面任意處點擊後，總計將會重新計算)</span></td>
                       </tr>
                       <tr>
