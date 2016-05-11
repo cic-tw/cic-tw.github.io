@@ -21,13 +21,12 @@
     var x=document.getElementById("money").value;
     document.getElementById("money").value=Math.round(x);
     x=Math.round(x);
-
     if(isNaN(x)){
-     alert("贊助金額請輸入數字");
-      x=0;
-      document.getElementById("money").value=x;
+    alert("贊助金額請輸入數字");
+    x=0;
+    document.getElementById("money").value=x;
     }
-  
+    
     if(x<0){
     alert("數值不可小於0");
     x=0;
@@ -56,26 +55,34 @@
                       <br>
                       <span class="spt">本暱稱會顯示在公民燈點燈頁面，最多5個字。若暱稱內容含對他人姓名毀謗之文字，點燈頁部分文字將以*字號顯示。<br>公民燈將依照贊助順序排序 &gt;&gt; <a href="http://event.cic.tw/CitizensMiaokou/" target="_blank">去哪看公民燈？</a></span></td>
                     </tr>
-                      <tr>
-                        <th><label for='custom_field[1512]'>個人專長</label></th>
-                        <td><input name='custom_field[1512]' required='required' type='text' value=''></td>
-                      </tr>
-                      <tr>
-                        <th><label for='custom_field[1513]'>有興趣的議題</label></th>
-                        <td><input name='custom_field[1513]' required='required' type='text' value=''></td>
-                      </tr>
-                      <tr>
-                        <th><label for="additional_support">隨喜贊助</label></th>
-                        <td><input name="additional_support" type="text" class="short-input" onChange="calculate()" value="" id="money">
-                        元 <br><span class="spt">贊助贈品之印刷加寄送成本為50元。<br>若贊助金額低於50元，恕不寄出贊助贈品，但會點網路公民燈，發票將會集中捐贈伊甸基金會。<br>贊助超過50元以上，皆會寄出1份贊助贈品附上發票，並點網路公民燈。</span></td>
-                      </tr>
-                      </tbody>
-                    </table>
-                    <div class="btn-bar"><button>確認送出</button></div>
-                  </form>
-                </div>
-              </div>
+                    <tr>
+                      <th><label for='custom_field[1512]'>個人專長</label></th>
+                      <td><input name='custom_field[1512]' required='required' type='text' value=''></td>
+                    </tr>
+                    <tr>
+                      <th><label for='custom_field[1513]'>有興趣的議題</label></th>
+                      <td><input name='custom_field[1513]' required='required' type='text' value=''></td>
+                    </tr>
+                    <tr>
+                      <th><label for="additional_support">隨喜贊助</label></th>
+                      <td><input name="additional_support" type="text" class="short-input" onChange="calculate()" value="" id="money">
+                      元 <br><span class="spt">贊助贈品之印刷加寄送成本為50元。<br>若贊助金額低於50元，恕不寄出贊助贈品，但會點網路公民燈，發票將會集中捐贈伊甸基金會。<br>贊助超過50元以上，皆會寄出1份贊助贈品，並點網路公民燈。</span></td>
+                    </tr>
+                    <tr>
+                      <th><label for='custom_field[1536]'>是否捐贈發票？</label></th>
+                      <td><select name='custom_field[1536]'>
+                        <option value='不捐發票'>不捐發票</option>
+                        <option value='要捐發票'>要捐發票</option>
+                      </select><br>
+                      <span class="spt">贊助超過50元以上可自行選擇是否捐贈發票。</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="btn-bar"><button>確認送出</button></div>
+              </form>
             </div>
           </div>
-        </body>
-      </html>
+        </div>
+      </div>
+    </body>
+  </html>
