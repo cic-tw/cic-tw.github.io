@@ -45,7 +45,6 @@ h2{
 	top: 0px;
 }
 .light-group{
-	padding-top: 3%;
 	width: 100%;
 	top: 0;
 	position: relative;
@@ -115,7 +114,11 @@ h2{
 	top: 93px;
 	height: 720px;
 }
-
+.banner img{
+	display: block;
+	width: 100%;
+}
+.banner{margin-bottom: 3%;}
 @media (max-width: 1200px){
 	.light{
 	width: 25%;
