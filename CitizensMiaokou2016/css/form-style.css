@@ -80,7 +80,9 @@ color: #ccc;}
 	padding:9px 18px;
 background: #a60c00;
 color: #fff;}
-
+.center{
+	text-align: center;
+}
 @media screen and (max-width:960px) {
 	.all-wrap{
 	background-image:none;
