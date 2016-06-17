@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dt,dl,p,em,strong,address{
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+	font-style: normal;
+	list-style: none;
+	letter-spacing: 2px;
+		line-height: 1.5em;
+}
+body{
+	font-family: "xingothic-tc";
+	font-weight: 200;
+	font-size: 24px;
+}
+a{
+	color: #8d6142;
+}
+.wrap{
+	padding-bottom: 60px;
+}
+.edm-block{
+		background:#000;
+		overflow: hidden;
+		padding:25px 10%;
+}
+.book-cover{
+	height: 1px;
+	overflow: hidden;
+}
+.book-info{
+	color: #fff;
+	position: relative;
+	max-width: 1000px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.book-info h2{
+	font-size: 30px;
+	margin-bottom: 14px;
+	text-align: center;
+}
+
+
+.btn{
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 0.5em;
+	display: block;
+	font-size: 1.5em;
+}
+.btn01{
+	background: #a60c00;
+	color: #fff;
+}
+.btn02{
+	background: #65615c;
+	color: #fff;
+}
+.action-btn{
+	text-align: center;
+}
+.action-btn a{
+	display: inline-block;
+	margin:10px;
+}
+.footer{
+	position: fixed;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	text-align: center;
+	padding: 10px 0; 
+}
+
+.footer p{
+	font-size: 13px;
+	display: inline-block;
+	margin: 0 10px;
+}
+.imgrwd{
+	max-width: 1000px;
+	width: 100%;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+.content-01,.content-02{
+	padding: 50px 20%;
+	clear: both;
+	line-height: 1.7em;
+}
+.content-02{
+	background-image: url(../images/bgg.jpg);
+}
+.content-01 h2,.content-02 h2{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	color: #9d522a;
+	font-family: "datm7";
+	font-weight: 700;
+}
+.content-02 h2{
+	margin-bottom: 20px;
+}
+.content-01 h3{
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-family: "xingothic-tc";
+	font-weight: 400;
+}
+
+.content-txt p,.qa-txt p{
+	margin-bottom: 17px;
+}
+
+.content-txt em,.qa-txt em{
+	font-style:normal;
+	color: #810000;
+	font-weight: bold;
+}
+.qa{
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #000;
+}
+.qa h2{
+	cursor: pointer;
+}
+.qa:last-child{
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.content-txt ul,.qa-txt ul{
+	list-style: decimal;
+	padding: 10px 0 10px 30px;
+}
+.qa-txt img{
+	width: 100%;
+}
+ul.book-list{
+	display: none;
+}
+
+.video{
+	height: 1px;
+	overflow: hidden;
+	padding-top: 55%;
+	position: relative;
+}
+.video iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.calign{
+	text-align: center;
+}
+.line{
+	border-bottom: 1px dotted #000;
+	padding: 45px 0 0 0;
+	margin-bottom: 45px;
+}
+.form-wrap{
+	padding:10px 5%;}
+
+.title{
+	font-size: 32px;
+	font-weight: bold;
+	text-align:center;
+	margin-bottom: 10px;}
+.ts-info{
+	font-size: 20px;
+	text-align:center;
+	margin-bottom: 20px;
+}
+.spt{
+	color:#770001;
+	font-size: 20px;}
+.form-table{
+	max-width:1000px;
+	margin:auto;
+	border-radius:5px;
+	box-sizing:border-box;
+	padding:15px 3%;
+	background-color:#f3f3f3;}
+.form-table table{
+	width: 100%;
+	border-collapse:collapse;
+	}
+.form-table table input{
+	width: 80%;
+	padding:7px;
+	border-radius:5px;
+	border:1px solid #ccc;
+font-size: 1em;}
+.form-table table .short-input{
+	width:120px;}
+.form-table td{
+	padding:18px 5px;
+border-bottom: 1px dotted #ccc;}
+.form-table th{
+	text-align:right;
+	vertical-align: top;
+	padding:15px 5px;
+}
+.btn-bar{
+	text-align:center;
+	padding:10px 0 0 0;}
+.btn-bar button{
+	margin:5px;
+	cursor:pointer;
+	border-radius:5px;
+	border:none;
+	font-size: 1.8em;
+	padding:9px 18px;
+background: #a60c00;
+color: #fff;}
+.center{
+	text-align: center;
+}
+label{
+	display: block;
+}
+select{
+	font-size: 1em;
+}
+@media (max-width: 960px){
+	body{
+	font-size: 18px;
+}
+	.book-info h2{
+	font-size: 26px;}	
+.content-01,.content-02{
+	padding: 40px 10%;
+}
+
+.content-01 h2,.content-02 h2{
+	font-size: 24px;
+}
+
+.content-01 h3{
+	font-size: 20px;
+}
+
+}
+
+@media (max-width: 640px){
+	
+body{
+	font-size: 16px;
+}
+.book-info h2{
+	font-size: 22px;}
+	.title{
+	font-size: 24px;}
+.ts-info{
+	font-size: 15px;}
+.spt{
+	font-size: 15px;}
+label{
+	font-size: 24px;
+}
+	select{
+	font-size: 24px;
+}
+}

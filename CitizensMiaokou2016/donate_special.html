@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>點亮公民燈，加入國會調查兵團公民智庫群！</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; max-scale=1.0; user-scalabe=0;">
+    <meta property="og:title" content="受不了立委亂搞？立刻贊助國會調查兵團監督國會">
+    <meta property="og:description" content="監督立委，人人有責。">
+    <meta property="article:author" content="https://www.facebook.com/CitizensMiaokou/" />
+    <meta property="article:publisher" content="https://www.facebook.com/CitizensMiaokou/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="國會調查兵團" />
+    <meta property="og:image" content="http://event.cic.tw/CitizensMiaokou2016/images/fb-share-new.jpg">
+    <link href="css/form-style-special.css" rel="stylesheet" type="text/css">
+    <script language="javascript">
+    function wordlength(){
+    var str=document.getElementById("nickname").value;
+    var x=str.length;
+    if(x>5){
+    alert("暱稱最多輸入5個字，請重新輸入");
+    document.getElementById("nickname").value="";
+    }
+    }
+    function calculate(){
+    var x=document.getElementById("money").value;
+    document.getElementById("money").value=Math.round(x);
+    x=Math.round(x);
+    if(isNaN(x)){
+    alert("贊助金額請輸入數字");
+    x=0;
+    document.getElementById("money").value=x;
+    }
+    
+    if(x<0){
+    alert("數值不可小於0");
+    x=0;
+    document.getElementById("money").value=x;
+    }
+    }
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58871054-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body onLoad="calculate()" class="donate-body">
+    <div class="all-wrap">
+      <div class="word-wrap">
+        <div class="form-wrap">
+          <h1 class="title"> 點亮公民燈，加入國會調查兵團公民智庫群！</h1>
+          <p class="ts-info">本群眾募資活動由啟動因子工作室處理相關事宜。發票將會與贊助贈品一起寄出。<br>*為必填項目</p>
+          <div class="form-table">
+            <form
+              action='https://cic.backme.tw/cashflow/checkout?locale=zh-TW' method='get'>
+              <input type='hidden' name='project_id' value='259'>
+              <input type='hidden' name='reward_id' value='1054'>
+              <table border="0">
+                <tbody>
+                  <tr>
+                    <td width="100%">
+                    <label for='custom_field[1508]'>*暱稱</label>
+                      <input name='custom_field[1508]' required='required' type='text' class="short-input" value=''>
+                      <br>
+                      <span class="spt">本暱稱會顯示在公民燈點燈頁面，最多5個字。若暱稱內容含對他人姓名毀謗之文字，點燈頁部分文字將以*字號顯示。</span></td>
+                    </tr>
+                    <tr>
+                      <td><label for='custom_field[1512]'>*個人專長</label><input name='custom_field[1512]' required='required' type='text' value=''></td>
+                    </tr>
+                    <tr>
+                      <td><label for='custom_field[1513]'>*有興趣的議題</label><input name='custom_field[1513]' required='required' type='text' value=''></td>
+                    </tr>
+                    <tr>
+                      <td><label for="additional_support">*隨喜贊助</label><input name="additional_support" type="text" class="short-input" onChange="calculate()" value="" id="money">
+                      元 <br><span class="spt">贊助贈品之印刷加寄送成本為50元。<br>若贊助金額
+                      在50元以下(含50元)，恕不寄出贊助贈品，但會點網路公民燈，發票將會集中捐贈伊甸基金會。<br>贊助超過50元，皆會寄出1份贊助贈品，並點網路公民燈。</span></td>
+                    </tr>
+                    <tr>
+                      <td><label for='custom_field[1536]'>是否捐贈發票？</label><select name='custom_field[1536]'>
+                        <option value='不捐發票'>不捐發票</option>
+                        <option value='要捐發票'>要捐發票</option>
+                      </select><br>
+                      <span class="spt">贊助超過50元可自行選擇是否捐贈發票。</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="btn-bar"><button>確認送出</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
