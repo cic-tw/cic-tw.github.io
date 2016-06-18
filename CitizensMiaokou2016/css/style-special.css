@@ -258,16 +258,16 @@ select{
 @media (max-width: 640px){
 	
 body{
-	font-size: 16px;
+	font-size: 19px;
 }
 .book-info h2{
 	font-size: 22px;}
 	.title{
 	font-size: 24px;}
 .ts-info{
-	font-size: 15px;}
+	font-size: 16px;}
 .spt{
-	font-size: 15px;}
+	font-size: 16px;}
 label{
 	font-size: 24px;
 }
