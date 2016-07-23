@@ -40,13 +40,13 @@ a{
 }
 
 .book-info h2{
-	font-size: 30px;
+	font-size: 29px;
 	color: #f5b909;
 }
 
 .book-info p:nth-of-type(1){
 margin-bottom: 16px;
-font-size: 22px;
+font-size: 20px;
 color:#fff;}
 
 .book-info p{
