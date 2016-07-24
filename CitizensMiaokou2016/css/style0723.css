@@ -237,7 +237,6 @@ ul.book-list{
 	right: 10px;
 }
 .content-01,.content-02{
-	font-size: 16px;
 	padding: 40px 10%;
 }
 
@@ -254,6 +253,9 @@ ul.book-list{
 }
 
 @media (max-width: 640px){
+	.content-01,.content-02{
+	padding: 40px 5%;
+}
 	.edm-block{
 		background-image: url(../images/cover-03.jpg);
 		background-position: center top;
@@ -311,15 +313,15 @@ line-height: 1.2em;}
 	line-height: 1.7em;
 }
 .content-01,.content-02{
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .content-01 h2,.content-02 h2{
-	font-size: 21px;
+	font-size: 22px;
 }
 
 .content-01 h3{
-	font-size: 17px;
+	font-size: 18px;
 }
 
 .footer{
