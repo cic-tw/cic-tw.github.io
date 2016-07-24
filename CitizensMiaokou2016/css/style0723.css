@@ -192,6 +192,22 @@ ul.book-list{
 }
 
 @media (max-width: 960px){
+	body,p,ul,ol,dd,dt,dl,p,em,strong,address{
+	font-family: "xingothic-tc";
+	font-weight: 400;
+}
+
+
+.content-01 h2,.content-02 h2{
+	font-family: "datm8";
+	font-weight: 800;
+}
+
+.content-01 h3{
+	font-family: "xingothic-tc";
+	font-weight: 600;
+}
+
 	.edm-block{
 		background-image: url(../images/cover-02.jpg);
 		background-position: right top;
