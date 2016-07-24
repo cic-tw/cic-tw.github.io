@@ -313,19 +313,20 @@ line-height: 1.2em;}
 	line-height: 1.7em;
 }
 .content-01,.content-02{
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .content-01 h2,.content-02 h2{
-	font-size: 22px;
+	font-size: 24px;
 }
 
 .content-01 h3{
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .footer{
 	font-size: 12px;
+	line-height: 1.4em;
 }
 
 
