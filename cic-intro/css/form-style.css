@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol{
+	font-size: 1em;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+body{
+	min-height: 100vh;
+	background-image: url(../images/bgg3.jpg);
+}
+.all-wrap{
+	background-image: url(../images/bgg2.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	height: 100%;
+	min-height: 100vh;
+}
+.word-wrap{
+	background-image: url(../images/bgg4.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 100%;
+	min-height: 100vh;
+}
+.form-wrap{
+	padding:30px 5%;}
+
+.title{
+	font-size: 28px;
+	font-weight: bold;
+	text-align:center;
+	margin-bottom: 10px;
+color: #fff;}
+.ts-info{
+	font-size: 13px;
+	text-align:center;
+	margin-bottom: 20px;
+color: #ccc;}
+.spt{
+	color:#770001;
+	font-size: 13px;}
+.form-table{
+	max-width:640px;
+	margin:auto;
+	border-radius:5px;
+	box-sizing:border-box;
+	padding:15px;
+	background-color:#f3f3f3;}
+.form-table table{
+	width: 100%;
+	border-collapse:collapse;
+	font-size: 18px;}
+.form-table table input{
+	width: 80%;
+	font-size: 18px;
+	padding:7px;
+	border-radius:5px;
+	border:1px solid #ccc;}
+.form-table table .short-input{
+	width:120px;}
+.form-table td{
+	padding:7px 5px;}
+.form-table th{
+	text-align:right;
+	vertical-align: top;
+	padding:15px 5px;
+}
+.btn-bar{
+	text-align:center;
+	padding:10px 0 0 0;}
+.btn-bar button{
+	margin:5px;
+	cursor:pointer;
+	border-radius:5px;
+	border:none;
+	font-size: 18px;
+	padding:9px 18px;
+background: #a60c00;
+color: #fff;}
+.center{
+	text-align: center;
+}
+@media screen and (max-width:960px) {
+	.all-wrap{
+	background-image:none;
+}
+.word-wrap{
+	background-image:none;
+}
+}
