@@ -352,3 +352,16 @@ p.book-list{
 	font-size: 12px;
 }
 }
+
+
+@media (max-width: 390px){
+	.wrap{
+-webkit-background-size: 370%;
+	background-size: 370%;
+	background-position: 0 0;
+}
+.book-info{
+	font-size: 13px;
+	padding-top: 213%;
+}
+}
