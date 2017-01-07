@@ -40,6 +40,7 @@ a{
 	position: relative;
 	font-size: 18px;
 	background: rgba(255, 255, 255, 0.5);
+	line-height: 1.7em;
 }
 .info-01{
 	position: absolute;
@@ -50,8 +51,17 @@ a{
 
 .info-p{
 	margin-bottom: 30px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 15px;
+	line-height: 1.4em;
 }
 
+.note{
+	font-size: 13px;
+	margin-top: 15px;
+	line-height: 1.4em;
+}
 .info-01 h2{
 	font-size: 26px;
 	font-weight: bold;
@@ -233,11 +243,13 @@ padding-top: 58%;
 @media (max-width: 960px){
 	.book-info{
 	width: 100%;
-	background-color: rgba(255,255,255,.6);
-	top: 45%;
-	left: 0;
+	background-color: rgba(255,255,255,.7);
+	margin-top: -1px;
 }
-
+.info-p{
+	color: #3d1409;
+	text-shadow: 1px 1px 1px #fff;
+}
 .edm-block{
 	position: relative;
 	line-height: 1.7em;
@@ -275,17 +287,29 @@ p.book-list{
 }
 }
 
-@media (max-width: 680px){
+@media (max-width: 800px){
 .wrap{
-	-webkit-background-size: 185%;
-	background-size: 185%;
-	background-position: 0 -168px;
+	-webkit-background-size: 120%;
+	background-size: 120%;
 }
 	.book-info{
-		padding-top: 82%;
+		padding-top: 70%;
 	}
 
 }
+
+@media (max-width: 680px){
+.wrap{
+	-webkit-background-size: 180%;
+	background-size: 180%;
+	background-position: 0 -40px;
+}
+	.book-info{
+		padding-top: 100%;
+	}
+
+}
+
 
 
 @media (max-width: 580px){
