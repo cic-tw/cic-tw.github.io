@@ -114,6 +114,7 @@ a{
 	font-size: 18px;
 	padding: 50px 20%;
 	clear: both;
+	text-align: justify;
 }
 .content-02{
 	background: #e4e1df;
@@ -226,6 +227,8 @@ ul.book-list{
 	margin-right: -3em;
 	font-size: 1em;
 }
+
+.btn{font-size: 1em;}
 .content-01,.content-02{
 	font-size: 16px;
 }
@@ -251,29 +254,11 @@ ul.book-list{
 
 
 @media (max-width: 480px){
-
-
-.content-01,.content-02{
-	font-size: 14px;
+.info-01 .btn{
+	bottom: 2%;
 }
 
-.content-01 h2,.content-02 h2{
-	font-size: 21px;
-}
-
-.content-01 h3{
-	font-size: 17px;
-}
 .footer{
 	font-size: 12px;
-}
-}
-
-
-@media (max-width: 390px){
-
-.book-info{
-	font-size: 13px;
-	padding-top: 213%;
 }
 }
