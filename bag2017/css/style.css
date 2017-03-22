@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dt,dl,p,em,strong,address{
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	list-style: none;
+}
+body{
+	font-family: "xingothic-tc";
+	font-weight: 200;
+	line-height: 2em;
+}
+a{
+	color: #8d6142;
+}
+.wrap{
+	padding-bottom: 30px;
+	background-image: url(../images/bag-cover.jpg);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width: 2400px;
+	margin: auto;
+}
+.book-cover{
+	height: 1px;
+	overflow: hidden;
+}
+.book-info{
+	height: 1px;
+	overflow: hidden;
+	padding-top: 50%;
+	position: relative;
+	font-size: 18px;
+	line-height: 1.7em;
+}
+
+
+.info-p{
+	margin-bottom: 15px;
+	font-size: 15px;
+	line-height: 1.4em;
+}
+
+.note{
+	font-size: 13px;
+	margin-top: 15px;
+	line-height: 1.4em;
+}
+.info-01 h2{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.info-01 h3{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #999;
+}
+.info-01 .btn{
+		position: absolute;
+	right: 10%;
+	bottom: 24%;
+}
+.ih{
+	height: 1px;
+	overflow: hidden;
+	line-height: 3em;
+}
+.btn{
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 0.5em 1em;
+	display: block;
+	font-size: 1.5em;
+}
+.btn01{
+	background: #cc0000;
+	color: #fff;
+}
+.btn02{
+	background: #aaa099;
+	color: #fff;
+}
+.action-btn{
+	text-align: center;
+}
+.action-btn a{
+	display: inline-block;
+	margin:10px;
+}
+.footer{
+	position: fixed;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	text-align: center;
+	font-size: 16px;
+	padding: 15px 0; 
+}
+
+.footer p{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.content-01,.content-02{
+	font-size: 18px;
+	padding: 50px 20%;
+	clear: both;
+}
+.content-02{
+	background: #e4e1df;
+}
+.content-01 h2,.content-02 h2{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	color: #9d522a;
+	font-family: "datm7";
+	font-weight: 700;
+}
+.content-02 h2{
+	margin-bottom: 20px;
+}
+.content-01 h3{
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-family: "xingothic-tc";
+	font-weight: 400;
+}
+
+.content-txt p,.qa-txt p{
+	margin-bottom: 17px;
+}
+
+.content-txt em,.qa-txt em{
+	font-style:normal;
+	color: #810000;
+	font-weight: bold;
+}
+.qa{
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #000;
+}
+.qa h2{
+	cursor: pointer;
+}
+.qa:last-child{
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.content-txt ul,.qa-txt ul{
+	list-style: decimal;
+	padding: 10px 0 10px 30px;
+}
+.qa-txt img{
+	width: 100%;
+}
+ul.book-list{
+	display: none;
+}
+.stitle:nth-of-type(2){
+	margin-top: 50px;
+}
+.video{
+	height: 1px;
+	overflow: hidden;
+	padding-top: 55%;
+	position: relative;
+}
+.video iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+@media (max-width: 1200px) {
+	.info-01 .btn{
+	right: 10%;
+	bottom: 20%;
+}
+
+
+.footer{
+	font-size: 16px;
+	height: auto;padding: 10px;
+	line-height: 1.5em;
+}
+
+.content-01,.content-02{
+	padding: 50px 10%;
+}
+
+.content-01 h2,.content-02 h2{
+	font-size: 28px;
+}
+
+.content-01 h3{
+	font-size: 22px;
+}
+}
+
+
+
+@media (max-width: 960px){	
+.wrap{
+	background-image: url(../images/bag-cover-mobile.jpg);
+}
+.book-info{
+	padding-top: 140%;
+}
+.info-01 .btn{
+	right: 50%;
+	bottom: 9%;
+	margin-right: -3em;
+	font-size: 1em;
+}
+.content-01,.content-02{
+	font-size: 16px;
+}
+
+.content-01 h2,.content-02 h2{
+	font-size: 24px;
+}
+
+.content-01 h3{
+	font-size: 20px;
+}
+.footer{
+	font-size: 14px;
+}
+}
+
+
+@media (max-width: 640px){
+	.info-01 .btn{
+	bottom: 5%;
+}
+}
+
+
+@media (max-width: 480px){
+
+
+.content-01,.content-02{
+	font-size: 14px;
+}
+
+.content-01 h2,.content-02 h2{
+	font-size: 21px;
+}
+
+.content-01 h3{
+	font-size: 17px;
+}
+.footer{
+	font-size: 12px;
+}
+}
+
+
+@media (max-width: 390px){
+
+.book-info{
+	font-size: 13px;
+	padding-top: 213%;
+}
+}
