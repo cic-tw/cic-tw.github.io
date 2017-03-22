@@ -63,7 +63,7 @@ a{
 }
 .info-01 .btn{
 		position: absolute;
-	right: 10%;
+	right: 6.5%;
 	bottom: 24%;
 }
 .ih{
@@ -188,7 +188,6 @@ ul.book-list{
 }
 @media (max-width: 1200px) {
 	.info-01 .btn{
-	right: 10%;
 	bottom: 20%;
 }
 
