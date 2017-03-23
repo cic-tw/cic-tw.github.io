@@ -166,6 +166,9 @@ a{
 }
 .qa-txt img{
 	width: 100%;
+	max-width: 480px;
+	margin: auto;
+	display: block;
 }
 ul.book-list{
 	display: none;
