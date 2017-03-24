@@ -221,11 +221,11 @@ ul.book-list{
 	background-image: url(../images/bag-cover-mobile.jpg);
 }
 .book-info{
-	padding-top: 140%;
+	padding-top: 110%;
 }
 .info-01 .btn{
 	right: 50%;
-	bottom: 9%;
+	bottom: 0%;
 	margin-right: -3em;
 	font-size: 1em;
 }
@@ -247,20 +247,53 @@ ul.book-list{
 }
 }
 
+@media (max-width: 800px){
+	.book-info{
+	padding-top: 111%;
+}
+}
+
 
 @media (max-width: 640px){
-	.info-01 .btn{
-	bottom: 5%;
+	.book-info{
+	padding-top: 113%;
 }
 }
 
 
 @media (max-width: 480px){
-.info-01 .btn{
-	bottom: 2%;
+
+	.book-info{
+	padding-top: 115%;
+}
+
+.content-01,.content-02{
+	font-size: 14px;
+}
+
+.content-01 h2,.content-02 h2{
+	font-size: 21px;
 }
 
 .footer{
 	font-size: 12px;
 }
 }
+
+
+
+@media (max-width: 420px){
+
+.book-info{
+	padding-top: 117%;
+}
+
+
+
+@media (max-width: 360px){
+
+.book-info{
+	padding-top: 119%;
+}
+}
+
