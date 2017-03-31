@@ -13,7 +13,8 @@ body{
 	line-height: 2em;
 }
 a{
-	color: #8d6142;
+	color: #cc0000;
+	text-decoration: none;
 }
 .wrap{
 	padding-bottom: 30px;
@@ -197,13 +198,22 @@ a{
 }
 .buy-group{
 	text-align: center;
+	padding-top: 20px;
 }
 .buy-block{
 	display: inline-block;
-	width: 32%;
+	vertical-align: top;
+	width: 30.5%;
+	margin:2% 1%;
+	font-size: 15px;
+	line-height: 1.4em;
+	background: #fff;
 }
 .buy-block img{
 	width: 100%;
+}
+.buy-block h5{
+	padding: 0.5em 0;
 }
 @media (max-width: 1200px) {
 	.info-01 .btn{
@@ -215,10 +225,6 @@ a{
 	font-size: 16px;
 	height: auto;padding: 10px;
 	line-height: 1.5em;
-}
-
-.content-01,.content-00{
-	padding: 50px 10%;
 }
 
 
@@ -238,8 +244,8 @@ a{
 	background-image: url(../images/bag-cover-mobile.jpg);
 }
 .book-info{
-	padding-top: 120%;
-	margin-bottom: 20px;
+	padding-top: 110%;
+	margin-bottom: 100px;
 }
 .info-01 .btn{
 	right: 50%;
@@ -251,6 +257,7 @@ a{
 .btn{font-size: 1em;}
 .content-01,.content-00{
 	font-size: 16px;
+	padding: 50px 10%;
 }
 
 .content-01 h2,.content-00 h2{
@@ -269,7 +276,7 @@ a{
 }
 .buy-block{
 	display: inline-block;
-	width: 49%;
+	width: 47%;
 }
 
 .bc{
@@ -306,6 +313,7 @@ a{
 
 	.book-info{
 	padding-top: 115%;
+	margin-bottom: 70px;
 }
 
 
