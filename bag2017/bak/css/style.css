@@ -10,6 +10,7 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dt,dl,p,em,strong,address{
 }
 body{
 	font-family: "xingothic-tc";
+	font-weight: 200;
 	line-height: 2em;
 }
 a{
@@ -31,7 +32,7 @@ a{
 .book-info{
 	height: 1px;
 	overflow: hidden;
-	padding-top: 49%;
+	padding-top: 50%;
 	position: relative;
 	font-size: 18px;
 	line-height: 1.7em;
@@ -108,102 +109,85 @@ a{
 	display: inline-block;
 	margin: 0 10px;
 }
-.bgc{
-	background: #efefef;
-}
-.bgmoney{
-	background-image: url(../images/money.jpg);
-	-webkit-background-size: 100%;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	background-color: #d8d8d8;
 
-}
-.content-00{
+.content-01,.content-02{
 	font-size: 18px;
-	padding:0 20%;
-	box-sizing: border-box;
+	padding: 50px 20%;
 	clear: both;
 	text-align: justify;
 }
-.content-01{
-	font-size: 18px;
-	padding:0 20%;
-	box-sizing: border-box;
-	clear: both;
-	text-align: justify;
-		min-height: 100vh;
+.content-02{
+	background: #e4e1df;
 }
-
-.content-01 h2,.content-00 h2{
+.content-01 h2,.content-02 h2{
 	text-align: center;
-	font-size: 46px;
+	font-size: 32px;
 	font-weight: bold;
-	color: #ccc;
-	margin-top: 1em;
-	line-height: 1.2em;
+	color: #9d522a;
+	font-family: "datm7";
+	font-weight: 700;
 }
-
-.content-01 h3,.content-00 h3{
+.content-02 h2{
+	margin-bottom: 20px;
+}
+.content-01 h3{
 	text-align: center;
 	font-size: 26px;
+	margin-bottom: 20px;
 	font-weight: bold;
-	color: #ccc;
+	font-family: "xingothic-tc";
+	font-weight: 400;
 }
 
-.content-01 h4,.content-00 h4{
-	font-size: 22px;
-	color: #999;
-	border-top:1px solid #ccc;
-	padding-top: .5em; 
-}
-.bc{
-	width: 23em;
-	margin:auto;
-	padding: 16vh 0;
-
-}
-.bc h2 br,.bcu br{
-	display: none;
-}
-
-.bcu{
-	margin:auto;
-	padding: 16vh 0 0 0;
-	text-align: center;
-}
-.bcd{
-	padding: 0 0 16vh 0;
-}
-.bcud{
-	padding: 16vh 0;
-}
-.content-txt p{
+.content-txt p,.qa-txt p{
 	margin-bottom: 17px;
 }
 
-.content-txt em{
+.content-txt em,.qa-txt em{
 	font-style:normal;
 	color: #810000;
 	font-weight: bold;
 }
-
-.content-txt ul{
+.qa{
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #000;
+}
+.qa h2{
+	cursor: pointer;
+}
+.qa:last-child{
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.content-txt ul,.qa-txt ul{
 	list-style: decimal;
 	padding: 10px 0 10px 30px;
-	font-size: 15px;
-	line-height: 1.6em;
 }
-.buy-group{
-	text-align: center;
-}
-.buy-block{
-	display: inline-block;
-	width: 32%;
-}
-.buy-block img{
+.qa-txt img{
 	width: 100%;
+	max-width: 480px;
+	margin: auto;
+	display: block;
+}
+ul.book-list{
+	display: none;
+}
+.stitle:nth-of-type(2){
+	margin-top: 50px;
+}
+.video{
+	height: 1px;
+	overflow: hidden;
+	padding-top: 55%;
+	position: relative;
+}
+.video iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 @media (max-width: 1200px) {
 	.info-01 .btn{
@@ -217,17 +201,16 @@ a{
 	line-height: 1.5em;
 }
 
-.content-01,.content-00{
+.content-01,.content-02{
 	padding: 50px 10%;
 }
 
-
-.content-01 h3,.content-00 h3{
-	font-size: 22px;
+.content-01 h2,.content-02 h2{
+	font-size: 28px;
 }
 
-.content-01 h4,.content-00 h4{
-	font-size: 20px;
+.content-01 h3{
+	font-size: 22px;
 }
 }
 
@@ -238,12 +221,7 @@ a{
 	background-image: url(../images/bag-cover-mobile.jpg);
 }
 .book-info{
-<<<<<<< Updated upstream
 	padding-top: 110%;
-=======
-	padding-top: 120%;
-	margin-bottom: 20px;
->>>>>>> Stashed changes
 }
 .info-01 .btn{
 	right: 50%;
@@ -253,43 +231,20 @@ a{
 }
 
 .btn{font-size: 1em;}
-.content-01,.content-00{
+.content-01,.content-02{
 	font-size: 16px;
 }
 
-.content-01 h2,.content-00 h2{
-	font-size: 40px;
+.content-01 h2,.content-02 h2{
+	font-size: 24px;
 }
 
-.content-01 h3,.content-00 h3{
+.content-01 h3{
 	font-size: 20px;
-}
-
-.content-txt ul{
-	font-size: 13px;
 }
 .footer{
 	font-size: 14px;
 }
-.buy-block{
-	display: inline-block;
-	width: 49%;
-}
-
-.bc{
-	padding: 7vh 0;
-
-}
-.bcu{
-	padding: 7vh 0 0 0;
-}
-.bcd{
-	padding: 0 0 7vh 0;
-}
-.bcud{
-	padding: 7vh 0;
-}
-
 }
 
 @media (max-width: 800px){
@@ -319,26 +274,11 @@ a{
 .content-01 h2,.content-02 h2{
 	font-size: 21px;
 }
-.bc {
-	width: auto;
-}
-.bc br{
-	display: none;
-}
-.bc h2 br,.bcu br{
-	display: inline;
-}
-.bcu span{
-	display: none;
-}
+
 .footer{
 	font-size: 12px;
 }
-.buy-block{
-	display: inline-block;
-	width: 100%;
 }
-<<<<<<< Updated upstream
 
 
 
@@ -357,8 +297,3 @@ a{
 }
 }
 
-=======
-}
-
-@media (max-width: 360px){}
->>>>>>> Stashed changes
