@@ -112,6 +112,17 @@ a{
 .bgc{
 	background: #efefef;
 }
+.bag-size{padding:20% 0 23% 58%;
+
+}
+.bgs{
+	background-image: url(../images/bag-size.jpg);
+	background-color: #cacaca;
+	-webkit-background-size: 53% auto;
+	background-size: auto 53% auto;
+	background-repeat: no-repeat;
+	background-position: 7% center ;
+}
 .bgmoney{
 	background-image: url(../images/money.jpg);
 	-webkit-background-size: 100%;
@@ -141,7 +152,7 @@ a{
 	text-align: center;
 	font-size: 46px;
 	font-weight: bold;
-	color: #ccc;
+	color: #999;
 	margin-top: 1em;
 	line-height: 1.2em;
 }
@@ -150,7 +161,7 @@ a{
 	text-align: center;
 	font-size: 26px;
 	font-weight: bold;
-	color: #ccc;
+	color: #999;
 }
 
 .content-01 h4,.content-00 h4{
@@ -185,9 +196,9 @@ a{
 }
 
 .content-txt em{
-	font-style:normal;
 	color: #810000;
-	font-weight: bold;
+	text-decoration: underline;
+	font-style: normal;
 }
 
 .content-txt ul{
@@ -215,6 +226,7 @@ a{
 .buy-block h5{
 	padding: 0.5em 0;
 }
+
 @media (max-width: 1200px) {
 	.info-01 .btn{
 	bottom: 20%;
@@ -299,6 +311,16 @@ a{
 	.book-info{
 	padding-top: 111%;
 }
+
+.bag-size{padding:0 0 70% 0;
+
+}
+.bgs{
+	-webkit-background-size: 95% auto;
+	background-size: auto 95% auto;
+	background-position: center 7em;
+}
+
 }
 
 
@@ -306,6 +328,11 @@ a{
 	.book-info{
 	padding-top: 113%;
 }
+
+.bgs{
+	background-position: center 9em;
+}
+
 }
 
 
@@ -316,6 +343,9 @@ a{
 	margin-bottom: 70px;
 }
 
+.bgs{
+	background-position: center 12em;
+}
 
 .content-01 h2,.content-02 h2{
 	font-size: 21px;
@@ -347,7 +377,7 @@ a{
 	padding-top: 117%;
 }
 
-
+}
 
 @media (max-width: 360px){
 
