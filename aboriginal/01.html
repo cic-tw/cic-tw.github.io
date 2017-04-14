@@ -110,6 +110,24 @@
     z-index: 999;
     text-decoration: none;
 }
+.agroup{
+	list-style: none;
+	margin: 0 2em;
+	padding: 0px;
+	text-align: center;
+}
+.agroup li{
+	display: inline-block;
+}
+.agroup a{
+	display: block;
+	color: #E60012;
+	text-decoration: none;
+	border:1px solid #E60012;
+	max-width: 960px;
+	margin: 1em auto;
+	padding: 1em;
+}
 			@media screen and (max-width: 960px){
 				.top{background-image: url(images/title-mobile.png);
 				-webkit-background-size:100%;
@@ -137,6 +155,11 @@
 				padding: 0px 1em 70px 1em;
 			}
 			}
+			@media screen and (max-width: 520px){
+				.agroup li{
+	display: block;
+}
+			}
 		</style>
 	</head>
 	<body>
@@ -152,6 +175,10 @@
 		</div>
 	</section>
 	<section class="video">
+	<ul class="agroup">
+			<li><a href="01.html">知情同意權是什麼？</a></li>
+			<li><a href="02.html">原住民為什麼要自治？</a></li>
+		</ul>
 		<div class="video-holder">
 			<iframe src="https://www.youtube.com/embed/PcxZ58YuZpk" frameborder="0" allowfullscreen></iframe>
 		</div>
