@@ -308,6 +308,11 @@ body{
 	padding: 0.5em 0;
 	text-align: center;
 }
+.b10 iframe{
+	display: block;
+	margin:-4em auto 0 auto;
+
+}
 
 .other-buy{
 	padding: 0px;
@@ -415,6 +420,9 @@ margin:0 1% 2em 1%;}
 .aims:nth-of-type(3){
 	width:99%;
 }
+.other-buy li{
+	width: 46%;
+}
 }
 
 
@@ -484,6 +492,9 @@ margin:0 1% 2em 1%;}
 	width:auto;
 	margin:0;
 	vertical-align: top;
+}
+.other-buy li{
+	width: 100%;
 }
 }
 
