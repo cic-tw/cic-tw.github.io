@@ -55,13 +55,29 @@ body{
 	text-align: center;
 	color: #0e7f8e;
 	font-size: 20px;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.point{
+	display: block;
+	width: 20px;
+	height: 33px;
+	background-image: url(../images/point.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 50%;
+	top:1em;
+	margin-left: -0.5em;
 }
 
 .bgc{
 	background-color: #eeeeee;
 }
 
-.b02,.b03,.b04,.b05,.b07,.b08{
+.b02,.b03,.b04,.b05,.b07,.b08,.b10 {
 	min-height: 100vh;
 	overflow: hidden;
 }
@@ -96,7 +112,7 @@ body{
 	padding:14vh 0;
 	margin:0 auto;
 }
-.b08 .txt-group,.b09 .txt-group,.b10 .txt-group{
+.b08 .txt-group,.b09 .txt-group,.b10 .txt-group,.b11 .txt-group{
 	padding:14vh 10%;
 	margin:0 auto;
 }
@@ -128,7 +144,7 @@ body{
 	margin:.8em 0;
 	line-height: 1.3em;
 }
-.b06 .subtitle-01,.b07 .subtitle-01,.b08 .subtitle-01,.b09 .subtitle-01,.b10 .subtitle-01{
+.b06 .subtitle-01,.b07 .subtitle-01,.b08 .subtitle-01,.b09 .subtitle-01,.b10 .subtitle-01,.b11 .subtitle-01{
 	text-align: center;
 	font-weight: bold;
 }
@@ -259,8 +275,8 @@ body{
 }
 .b10 .aims:nth-of-type(1){
 	background-image: url(../images/bg06.png);
-		-webkit-background-size: 115px;
-	background-size: 115px;
+		-webkit-background-size: 105px;
+	background-size: 105px;
 }
 .b10 .aims:nth-of-type(2){
 	background-image: url(../images/bg07.png);
@@ -292,6 +308,32 @@ body{
 	padding: 0.5em 0;
 	text-align: center;
 }
+
+.other-buy{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: center;
+}
+.other-buy img{
+	width: 100%;
+	display: block;	
+}
+.other-buy h4{
+	padding: .5em 0;
+	font-weight: normal;
+}
+.other-buy a{
+	color: #000;
+	display: block;
+	background-color: #fff;
+}
+.other-buy li{
+display: inline-block;
+width: 30%;
+margin:0 1% 2em 1%;}
+
+
 
 @media screen and (max-width:960px){
 	.title-txt-group{
@@ -416,7 +458,7 @@ body{
 	padding: 5vh 10vw;
 }
 
-.b02 .subtitle-01,.b03 .subtitle-01,.b04 .subtitle-01,.b05 .subtitle-01,.b06 .subtitle-01,.b07 .subtitle-01,.b08 .subtitle-01,.b09 .subtitle-01,.b10 .subtitle-01{
+.b02 .subtitle-01,.b03 .subtitle-01,.b04 .subtitle-01,.b05 .subtitle-01,.b06 .subtitle-01,.b07 .subtitle-01,.b08 .subtitle-01,.b09 .subtitle-01,.b10 .subtitle-01,.b11 .subtitle-01{
 	font-size: 30px;
 }
 
@@ -474,7 +516,7 @@ body{
 	font-size: 16px;
 }
 .b05 .txt-group{
-	background-position: center 80vh;
+	background-position: center 90vh;
 }
 
 .b07 ul{
@@ -496,6 +538,6 @@ body{
 
 @media screen and (max-width:420px){
 	.b05 .txt-group{
-	background-position: center 90vh;
+	background-position: center 105vh;
 }
 }
