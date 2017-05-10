@@ -46,20 +46,14 @@ a{
 }
 .book-info p{
 	line-height: 1.8em;
-	padding-left: 173px;
 }
 
 .book-info .btn{
-	width: 86px;
-	height: 79px;
-	background-image: url(../images/buy.png);
-	overflow: hidden;
-	text-indent: -500px;
-	padding: 0;
-	z-index: 99;
-	position: absolute;
-	left: 668px;
-	bottom: 0;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	font-size: 32px;
+
 }
 .btn{
 	border-radius: 8px;
@@ -190,24 +184,16 @@ ul.book-list{
 		background-position: right top;
 }
 	.book-info{
-		padding-left: 0;
-		width: auto;
-		margin-right: 5%;
-		overflow: hidden;
+    font-size: 20px;
+    max-width: 390px;
+    margin:0;
+    padding-left: 0px;
+    padding-top: 270px;
+    position: absolute;
+    right: 60px;
 	}
-	.book-info h2{
-		text-align: right;
-	}
-	.book-info p{
-		width: 270px;
-		margin: 0 0 0 50%;
-		padding: 0;
-		float: right;
-}
-.book-info .btn{
-	left: auto;
-	right: 185px;
-}
+
+
 .content-01,.content-02{
 	font-size: 16px;
 	padding: 40px 10%;
@@ -237,44 +223,22 @@ ul.book-list{
 		position: relative;
 }
 .book-info {
-	position: absolute;
-	left: 0;
 	top: 0;	
+	right: auto;
+	left: 20%;
+	width: 320px;
 	padding-top: 37%;
 }
-.book-info h2{
-	font-size: 24px;
-	text-align: left;
-	padding-left: 5%;
-}
-	.book-info p{
-		width: 200px;
-	font-size: 16px;
-	float: left;
-	margin-left: 5%;
-	margin-right: 50%;
-}
-.book-info .btn{
-	right: auto;
-	left: 5%;
-	width: 50px;
-	height: 46px;
-	background-size: cover;
-}
+
+
 }
 
 
 
 
 @media (max-width: 480px){
-.book-info h2{
-	margin-bottom: 10px;
-	font-size: 18px;
-}
-.book-info p{
-	font-size: 14px;
-	line-height: 1.7em;
-}
+
+
 .content-01,.content-02{
 	font-size: 14px;
 }
@@ -291,5 +255,7 @@ ul.book-list{
 	font-size: 12px;
 }
 
-
+.book-info {
+	width: 300px;
+}
 }
