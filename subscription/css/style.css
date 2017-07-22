@@ -77,9 +77,12 @@ body{
 	background-color: #eeeeee;
 }
 
-.b02,.b03,.b04,.b05,.b07,.b08,.b10 {
+.b02,.b03,.b04,.b05,.b07,.b08 {
 	min-height: 100vh;
 	overflow: hidden;
+}
+.b10{
+	padding-bottom: 50px;
 }
 .b06{
 	min-height: 100vh;
