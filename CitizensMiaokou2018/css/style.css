@@ -1,0 +1,162 @@
+body,h1,h2,h3,h4,h5,h6,p{
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+ol,ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.top-bn{
+	height: 768px;
+	background:url(../images/bnbg-desktop.jpg) no-repeat center top #000;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin:auto;
+	overflow: hidden;
+	position:relative;
+}
+
+.active-title{
+	background: url(../images/title.png) no-repeat center top;
+	width: 100%;
+	height: 258px;
+	margin: 35px auto 0 auto;
+	position: absolute;
+	top: 0px;
+}
+.ghost-group{
+	height: 768px;
+	width: 1366px;
+	margin: auto;
+	position: relative;
+}
+
+.g01,.g02,.g03,.g04,.g05,.g06{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0
+}
+
+.g01{
+	background: url(../images/g01.png) no-repeat center top;
+}
+.g02{
+	background: url(../images/g02.png) no-repeat center top;
+}
+.g03{
+	background: url(../images/g03.png) no-repeat center top;
+}
+.g04{
+	background: url(../images/g04.png) no-repeat center top;
+}
+.g05{
+	background: url(../images/g05.png) no-repeat center top;
+}
+.g06{
+	background: url(../images/g06.png) no-repeat center top;
+}
+
+.video{
+	position: relative;
+	padding-top: 40%;
+}
+
+.video iframe{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	left: 0;
+	top: 0
+}
+
+.active-txt ul li{
+	margin-bottom: 1em;
+}
+
+.active-txt ol{
+	margin: auto;
+	overflow: hidden;
+	border:2px solid yellow;
+}
+.active-txt ol li {
+	width: 12.5%;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	border:2px solid yellow;
+}
+.active-txt ol li img{
+	display: block;
+	width: 100%;
+	max-width: 300px;
+}
+
+.atxt{
+	max-width: 640px;
+	margin:auto;
+	text-align: center;
+}
+
+
+.ctxt {
+	font-size: 1.4em;
+	padding:3em 1.5em 1.5em 1.5em;
+}
+
+.atxt h2{
+	font-size: 1.6em;
+	margin-bottom: 1em;
+}	
+
+.tb01{
+	color: #fff;
+	background: #000;
+}
+
+.tt01:after{
+	content: "★★★★★★★★★★";
+	display: block;
+	font-size: 16px;
+	color: yellow;
+}
+.tt02:after{
+	content: "★★★★★★★★★★";
+	display: block;
+	font-size: 16px;
+	color: #aaa;
+}
+.tb02{
+	text-align: center;
+}
+.prd{
+	display: inline-block;
+	width: 40%;
+}
+.prd img{
+	width: 100%;
+}
+.prd a{
+	text-decoration: none;
+	color: #000;
+}
+.stxt{
+	font-size: 15px;
+}
+
+
+.look-btn{
+	display: block;
+	color: #000;
+	background: yellow;
+	text-decoration: none;
+	border-radius: 5px;
+	max-width: 300px;
+	margin: auto;
+	padding:7px;
+}
