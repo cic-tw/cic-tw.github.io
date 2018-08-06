@@ -62,6 +62,17 @@ ol,ul{
 	background: url(../images/g06.png) no-repeat center top;
 }
 
+.top-bn .look-btn{
+	position: absolute;
+	top: 330px;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+	font-size: 28px;
+	text-align: center;
+	border:6px solid #000;
+	border-radius: 15px;
+}
 .video{
 	position: relative;
 	padding-top: 40%;
@@ -159,4 +170,5 @@ ol,ul{
 	max-width: 300px;
 	margin: auto;
 	padding:7px;
+	margin-bottom: 15px;
 }
