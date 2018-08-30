@@ -257,8 +257,10 @@ footer{
 
 
 @media (max-width: 640px){
-	body,h1,h2,h3,h4,h5,h6,p,ul,ol{
-	font-size: 0.9em;
+	.main-banner hgroup h1{
+	font-size: 3em;}
+.main-banner hgroup h2{
+	font-size: 1.8em;
 }
 		.main-banner hgroup{
 			width: 100%;
@@ -268,7 +270,7 @@ footer{
 }
 	.ad-txt{
 	left: 0;
-	top: 25%;
+	top: 22%;
 	width: 100%;
 	text-align: center;
 }
@@ -292,6 +294,3 @@ footer{
 	}
 }
 
-@media (max-width: 420px){
-
-}
