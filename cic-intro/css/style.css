@@ -178,6 +178,9 @@ ul.book-list{
 	left: 0px;
 	top: 0px;
 }
+.img-wrap img{
+	width: 100%;
+}
 
 .calign{
 	text-align: center;
