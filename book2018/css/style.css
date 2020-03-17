@@ -58,7 +58,7 @@ a{
 	margin-top: 0.5em;
 }
 
-.ad-txt{
+.as-txt{
 	position: absolute;
 	left: 18%;
 	top: 40%;
@@ -66,10 +66,10 @@ a{
 	text-shadow: 2px 2px 10px #000,-2px -2px 10px #000,2px -2px 10px #000,-2px 2px 10px #000;
 	font-size: 1.25em;
 }
-.ad-txt p{
+.as-txt p{
 	line-height: 1.8em;
 }
-.ad-txt a{
+.as-txt a{
 	text-shadow:none;
 	display: block;
 	text-decoration: none;
@@ -83,7 +83,7 @@ a{
 }
 
 
-.ad01{
+.as01{
 	background: url(../images/bg-life.jpg);
 	-webkit-background-size: 100%;
 	background-size: 100%;
@@ -100,7 +100,7 @@ a{
 	margin-bottom: 1em;
 }
 
-.ad01 .txt{
+.as01 .txt{
 	width: 80%;
 	max-width: 640px;
 	margin: auto;
@@ -112,7 +112,7 @@ a{
 	margin-bottom: 1em;
 	color: #5e0202;
 }
-.ad h2:after{
+.as h2:after{
 	content: "...";
 	display: block;
 	color: #eeb9b9;
@@ -120,7 +120,7 @@ a{
 	margin-top: -0.2em;
 }
 
-.ad02 p{
+.as02 p{
 	text-align: center;
 }
 .bi-block img{
@@ -179,11 +179,11 @@ a{
 .bi-block .info-btn{
 	background: #ccc;
 }
-.ad03{
+.as03{
 	background: #f1f1f1;
 }
 
-.ad03 .bi-block p{
+.as03 .bi-block p{
 	text-align: justify;
 }
 
@@ -214,7 +214,7 @@ footer{
 	.main-banner hgroup{
 	top: 12%;
 }
-	.ad-txt{
+	.as-txt{
 	top: 27%;
 }
 	.book{
@@ -252,7 +252,7 @@ footer{
 	max-width: 580px;
 	margin: auto;
 }
-	.ad03 .bi-block a{
+	.as03 .bi-block a{
 		display: inline-block;
 		width: 320px;
 	}
@@ -276,14 +276,14 @@ footer{
 	left: 0;
 	top: 9%;
 }
-	.ad-txt{
+	.as-txt{
 	left: 0;
 	top: 22%;
 	width: 100%;
 	text-align: center;
 	font-size: 1.15em;
 }
-	.ad-txt a{
+	.as-txt a{
 		margin: 1em auto 0 auto;
 	}
 	.book{
@@ -291,7 +291,7 @@ footer{
 	right: -2vw;
 	bottom: -5vh;
 }
-	.ad01.block{
+	.as01.block{
 		min-height:15em;
 		padding-bottom: 9em;
 	}
